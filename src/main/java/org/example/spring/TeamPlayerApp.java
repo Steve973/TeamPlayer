@@ -30,6 +30,12 @@ public class TeamPlayerApp {
         SpringApplication.run(TeamPlayerApp.class, args);
     }
 
+    /**
+     * Configure the Docket instance to document with Swagger 2, and to provide API information
+     * based on the ApiInfo returned from the apiInfo method.
+     *
+     * @return the configured Docket instance
+     */
     @Bean
     public Docket swaggerSpringMvcPlugin() {
         return new Docket(DocumentationType.SWAGGER_2)
@@ -40,6 +46,11 @@ public class TeamPlayerApp {
                 .apiInfo(apiInfo());
     }
 
+    /**
+     * Provides API information when the user navigates to the Swagger UI page.
+     *
+     * @return ApiInfo for the application
+     */
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("TeamPlayer API")

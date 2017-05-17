@@ -36,20 +36,55 @@ import java.util.stream.Collectors;
 public class TeamPlayerDataInitializerApp implements CommandLineRunner {
     private File playerFile = new ClassPathResource("players.json").getFile();
     private File teamFile = new ClassPathResource("teams.json").getFile();
-    @Autowired
     private AthleteRepository athleteRepository;
-    @Autowired
     private TeamRepository teamRepository;
-    @Autowired
     private PositionRepository positionRepository;
 
-    public TeamPlayerDataInitializerApp() throws IOException {
+    public TeamPlayerDataInitializerApp(@Autowired AthleteRepository athleteRepository,
+                                        @Autowired TeamRepository teamRepository,
+                                        @Autowired PositionRepository positionRepository) throws IOException {
+        this.athleteRepository = athleteRepository;
+        this.teamRepository = teamRepository;
+        this.positionRepository = positionRepository;
     }
 
     public static void main(String[] args) {
         SpringApplication.run(TeamPlayerDataInitializerApp.class, args);
     }
 
+    /**
+     * The {@link Position} information must be parsed from the teams.xml file, so this parses those objects
+     * to create {@link Athlete} and {@link Team} objects which are then used to create the {@link Position} instance.
+     *
+     * @param players a collection of {@link Player}s
+     * @param athletes a collection of {@link Athlete}s
+     * @param teams a collection of {@link Team}s
+     * @return the {@link Position}s that are the association of an {@link Athlete} on a {@link Team}
+     */
+    private static Set<Position> getPositions(final Set<Player> players, final Set<Athlete> athletes, final Set<Team> teams) {
+        return players.stream()
+                .filter(player -> player.position != null)
+                .map(player -> {
+                    Athlete athlete = athletes.stream()
+                            .filter(person -> person.getName().equals(player.name))
+                            .findFirst()
+                            .orElseThrow(() -> new IllegalArgumentException("No athlete found with name: " + player.name));
+                    Team team = teams.stream()
+                            .filter(aTeam -> aTeam.getKey().equals(player.team))
+                            .findFirst()
+                            .orElseThrow(() -> new IllegalArgumentException("No team found with name: " + player.team));
+                    return new Position(athlete, team, player.position, player.jersey);
+                }).collect(Collectors.toSet());
+    }
+
+    /**
+     * This method removes all {@link Athlete}s, {@link Team}s, and {@link Player}s from the data store.  Then, it
+     * parses the players and teams JSON files and re-populates the data store with fresh data.  After this processing
+     * completes, it prints the number of teams, athletes, and positions that were saved to the data store.
+     *
+     * @param args ignored
+     * @throws Exception if there was a problem parsing the JSON files
+     */
     @Override
     public void run(String... args) throws Exception {
         Gson gson = new Gson();
@@ -67,22 +102,10 @@ public class TeamPlayerDataInitializerApp implements CommandLineRunner {
         System.out.printf("Saved %d teams, %d athletes, and %d positions.%n", teams.size(), athletes.size(), positions.size());
     }
 
-    private static Set<Position> getPositions(final Set<Player> players, final Set<Athlete> people, final Set<Team> teams) {
-        return players.stream()
-                .filter(player -> player.position != null)
-                .map(player -> {
-                    Athlete athlete = people.stream()
-                            .filter(person -> person.getName().equals(player.name))
-                            .findFirst()
-                            .orElseThrow(() -> new IllegalArgumentException("No athlete found with name: " + player.name));
-                    Team team = teams.stream()
-                            .filter(aTeam -> aTeam.getKey().equals(player.team))
-                            .findFirst()
-                            .orElseThrow(() -> new IllegalArgumentException("No team found with name: " + player.team));
-                    return new Position(athlete, team, player.position, player.jersey);
-                }).collect(Collectors.toSet());
-    }
-
+    /**
+     * This is an object for intermediate processing of the player JSON file.  It is a private static class because
+     * it is needed nowhere else.  There is a custom toString method for debugging purposes.
+     */
     private static class Player {
         String team;
         String position;

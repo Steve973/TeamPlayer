@@ -22,12 +22,17 @@ import java.util.stream.Collectors;
  */
 @RestController
 public class AthleteController {
-    @Autowired
     private AthleteRepository athleteRepository;
-    @Autowired
     private TeamRepository teamRepository;
-    @Autowired
     private PositionRepository positionRepository;
+
+    public AthleteController(@Autowired AthleteRepository athleteRepository,
+                             @Autowired TeamRepository teamRepository,
+                             @Autowired PositionRepository positionRepository) {
+        this.athleteRepository = athleteRepository;
+        this.teamRepository = teamRepository;
+        this.positionRepository = positionRepository;
+    }
 
     /**
      * Get all Athletes in the data store.
@@ -46,7 +51,7 @@ public class AthleteController {
      * @return all Athletes associated with the given {@link Team}.
      */
     @RequestMapping(value = "/athletes/byTeam", method = RequestMethod.GET)
-    public Collection<Athlete> getAllAthletesByTeam(@RequestParam(value="name") String teamName) {
+    public Collection<Athlete> getAllAthletesByTeam(@RequestParam(value = "name") String teamName) {
         Team team = teamRepository.findByName(teamName);
         return positionRepository.findAllByTeam(team)
                 .stream()
@@ -61,7 +66,7 @@ public class AthleteController {
      * @return all Athletes with the given {@link Position}
      */
     @RequestMapping(value = "/athletes/byPosition", method = RequestMethod.GET)
-    public Collection<Athlete> getAllAthletesByPosition(@RequestParam(value="name") String positionName) {
+    public Collection<Athlete> getAllAthletesByPosition(@RequestParam(value = "name") String positionName) {
         return positionRepository.findAllByName(positionName)
                 .stream()
                 .map(Position::getAthlete)
@@ -75,7 +80,7 @@ public class AthleteController {
      * @return all Athletes that play in the given conference
      */
     @RequestMapping(value = "/athletes/byConference", method = RequestMethod.GET)
-    public Collection<Athlete> getAllByConference(@RequestParam(value="conference") String conference) {
+    public Collection<Athlete> getAllByConference(@RequestParam(value = "conference") String conference) {
         return positionRepository.findAllByName(conference)
                 .stream()
                 .map(Position::getAthlete)
@@ -89,7 +94,7 @@ public class AthleteController {
      * @return all Athletes that play in the given division
      */
     @RequestMapping(value = "/athletes/byDivision", method = RequestMethod.GET)
-    public Collection<Athlete> getAllByDivsion(@RequestParam(value="division") String division) {
+    public Collection<Athlete> getAllByDivsion(@RequestParam(value = "division") String division) {
         return positionRepository.findAllByName(division)
                 .stream()
                 .map(Position::getAthlete)

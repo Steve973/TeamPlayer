@@ -15,8 +15,11 @@ import java.util.Collection;
  */
 @RestController
 public class TeamController {
-    @Autowired
     private TeamRepository teamRepository;
+
+    public TeamController(@Autowired TeamRepository teamRepository) {
+        this.teamRepository = teamRepository;
+    }
 
     /**
      * Get all Teams in the data store.
@@ -35,7 +38,7 @@ public class TeamController {
      * @return the Team with the given name
      */
     @RequestMapping(value = "/teams/byName", method = RequestMethod.GET)
-    public Team getByName(@RequestParam(value="name") String name) {
+    public Team getByName(@RequestParam(value = "name") String name) {
         return teamRepository.findByName(name);
     }
 
@@ -46,7 +49,7 @@ public class TeamController {
      * @return the Team with the given key
      */
     @RequestMapping(value = "/teams/byKey", method = RequestMethod.GET)
-    public Team getByKey(@RequestParam(value="key") String key) {
+    public Team getByKey(@RequestParam(value = "key") String key) {
         return teamRepository.findByKey(key);
     }
 
@@ -57,7 +60,7 @@ public class TeamController {
      * @return all Teams that play in the given conference
      */
     @RequestMapping(value = "/teams/byConference", method = RequestMethod.GET)
-    public Collection<Team> getAllByConference(@RequestParam(value="conference") String conference) {
+    public Collection<Team> getAllByConference(@RequestParam(value = "conference") String conference) {
         return teamRepository.findAllByConference(conference);
     }
 
@@ -68,7 +71,7 @@ public class TeamController {
      * @return all Teams that play in the given division
      */
     @RequestMapping(value = "/teams/byDivision", method = RequestMethod.GET)
-    public Collection<Team> getAllByDivsion(@RequestParam(value="division") String division) {
+    public Collection<Team> getAllByDivsion(@RequestParam(value = "division") String division) {
         return teamRepository.findAllByDivision(division);
     }
 }
