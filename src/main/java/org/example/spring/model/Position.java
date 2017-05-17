@@ -1,15 +1,15 @@
 package org.example.spring.model;
 
 /**
- * This is the model object that represents a player, which is a {@link Person} on a {@link Team}.
+ * This is the model object that represents a position, which is an {@link Athlete} on a {@link Team}.
  */
 public class Position extends AbstractTeamPlayerEntity {
-    private Person person;
+    private Athlete athlete;
     private Team team;
     private String jersey;
 
-    public Position(Person person, Team team, String name, String jersey) {
-        this.person = person;
+    public Position(Athlete athlete, Team team, String name, String jersey) {
+        this.athlete = athlete;
         this.team = team;
         this.name = name;
         this.jersey = jersey;
@@ -26,12 +26,12 @@ public class Position extends AbstractTeamPlayerEntity {
         this.jersey = jersey;
     }
 
-    public Person getPerson() {
-        return person;
+    public Athlete getAthlete() {
+        return athlete;
     }
 
-    public void setPerson(Person person) {
-        this.person = person;
+    public void setAthlete(Athlete athlete) {
+        this.athlete = athlete;
     }
 
     public Team getTeam() {
