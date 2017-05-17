@@ -19,7 +19,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * This is the main entry point and configuration for the Team/Player
+ * This is the main entry point and configuration for the Team/Person
  * application, annotated with {@link SpringBootApplication} to enable
  * configuration, classpath component scanning, etc.
  */
@@ -42,8 +42,8 @@ public class TeamPlayerApp {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Team/Player API")
-                .description("The Team/Player API allows you to perform CRUD operations on the Team and Player resources.")
+                .title("Team/Person API")
+                .description("The Team/Person API allows you to perform CRUD operations on the Team and Person resources.")
                 .contact(new Contact("Steve Storck", "https://github.com/Steve973/TeamPlayer", "steve973@gmail.com"))
                 .license("Apache License Version 2.0")
                 .licenseUrl("https://github.com/Steve973/TeamPlayer/blob/master/LICENSE")

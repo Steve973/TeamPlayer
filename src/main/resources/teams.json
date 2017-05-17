@@ -1,0 +1,212 @@
+[
+  {
+    "TeamID": 1,
+    "Key": "BOS",
+    "Name": "Bruins",
+    "Conference": "Eastern",
+    "Division": "Atlantic"
+  },
+  {
+    "TeamID": 2,
+    "Key": "BUF",
+    "Name": "Sabres",
+    "Conference": "Eastern",
+    "Division": "Atlantic"
+  },
+  {
+    "TeamID": 3,
+    "Key": "DET",
+    "Name": "Red Wings",
+    "Conference": "Eastern",
+    "Division": "Atlantic"
+  },
+  {
+    "TeamID": 4,
+    "Key": "MON",
+    "Name": "Canadiens",
+    "Conference": "Eastern",
+    "Division": "Atlantic"
+  },
+  {
+    "TeamID": 5,
+    "Key": "OTT",
+    "Name": "Senators",
+    "Conference": "Eastern",
+    "Division": "Atlantic"
+  },
+  {
+    "TeamID": 6,
+    "Key": "TB",
+    "Name": "Lightning",
+    "Conference": "Eastern",
+    "Division": "Atlantic"
+  },
+  {
+    "TeamID": 7,
+    "Key": "TOR",
+    "Name": "Maple Leafs",
+    "Conference": "Eastern",
+    "Division": "Atlantic"
+  },
+  {
+    "TeamID": 8,
+    "Key": "FLA",
+    "Name": "Panthers",
+    "Conference": "Eastern",
+    "Division": "Atlantic"
+  },
+  {
+    "TeamID": 9,
+    "Key": "CAR",
+    "Name": "Hurricanes",
+    "Conference": "Eastern",
+    "Division": "Metropolitan"
+  },
+  {
+    "TeamID": 10,
+    "Key": "NJ",
+    "Name": "Devils",
+    "Conference": "Eastern",
+    "Division": "Metropolitan"
+  },
+  {
+    "TeamID": 11,
+    "Key": "NYI",
+    "Name": "Islanders",
+    "Conference": "Eastern",
+    "Division": "Metropolitan"
+  },
+  {
+    "TeamID": 12,
+    "Key": "NYR",
+    "Name": "Rangers",
+    "Conference": "Eastern",
+    "Division": "Metropolitan"
+  },
+  {
+    "TeamID": 13,
+    "Key": "PHI",
+    "Name": "Flyers",
+    "Conference": "Eastern",
+    "Division": "Metropolitan"
+  },
+  {
+    "TeamID": 14,
+    "Key": "PIT",
+    "Name": "Penguins",
+    "Conference": "Eastern",
+    "Division": "Metropolitan"
+  },
+  {
+    "TeamID": 15,
+    "Key": "WAS",
+    "Name": "Capitals",
+    "Conference": "Eastern",
+    "Division": "Metropolitan"
+  },
+  {
+    "TeamID": 16,
+    "Key": "CBJ",
+    "Name": "Blue Jackets",
+    "Conference": "Eastern",
+    "Division": "Metropolitan"
+  },
+  {
+    "TeamID": 17,
+    "Key": "CHI",
+    "Name": "Blackhawks",
+    "Conference": "Western",
+    "Division": "Central"
+  },
+  {
+    "TeamID": 18,
+    "Key": "DAL",
+    "Name": "Stars",
+    "Conference": "Western",
+    "Division": "Central"
+  },
+  {
+    "TeamID": 19,
+    "Key": "COL",
+    "Name": "Avalanche",
+    "Conference": "Western",
+    "Division": "Central"
+  },
+  {
+    "TeamID": 20,
+    "Key": "STL",
+    "Name": "Blues",
+    "Conference": "Western",
+    "Division": "Central"
+  },
+  {
+    "TeamID": 21,
+    "Key": "NAS",
+    "Name": "Predators",
+    "Conference": "Western",
+    "Division": "Central"
+  },
+  {
+    "TeamID": 22,
+    "Key": "WPG",
+    "Name": "Jets",
+    "Conference": "Western",
+    "Division": "Central"
+  },
+  {
+    "TeamID": 23,
+    "Key": "MIN",
+    "Name": "Wild",
+    "Conference": "Western",
+    "Division": "Central"
+  },
+  {
+    "TeamID": 24,
+    "Key": "CGY",
+    "Name": "Flames",
+    "Conference": "Western",
+    "Division": "Pacific"
+  },
+  {
+    "TeamID": 25,
+    "Key": "EDM",
+    "Name": "Oilers",
+    "Conference": "Western",
+    "Division": "Pacific"
+  },
+  {
+    "TeamID": 26,
+    "Key": "LA",
+    "Name": "Kings",
+    "Conference": "Western",
+    "Division": "Pacific"
+  },
+  {
+    "TeamID": 27,
+    "Key": "SJ",
+    "Name": "Sharks",
+    "Conference": "Western",
+    "Division": "Pacific"
+  },
+  {
+    "TeamID": 28,
+    "Key": "VAN",
+    "Name": "Canucks",
+    "Conference": "Western",
+    "Division": "Pacific"
+  },
+  {
+    "TeamID": 29,
+    "Key": "ARI",
+    "Name": "Coyotes",
+    "Conference": "Western",
+    "Division": "Pacific"
+  },
+  {
+    "TeamID": 30,
+    "Key": "ANA",
+    "Name": "Ducks",
+    "Conference": "Western",
+    "Division": "Pacific"
+  }
+]

@@ -1,0 +1,6498 @@
+[
+  {
+    "PlayerID": 30000007,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Carey Price"
+  },
+  {
+    "PlayerID": 30000008,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "G",
+    "Jersey": 1,
+    "Name": "Jonathan Bernier"
+  },
+  {
+    "PlayerID": 30000009,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "D",
+    "Jersey": 28,
+    "Name": "Nathan Beaulieu"
+  },
+  {
+    "PlayerID": 30000010,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "LW",
+    "Jersey": 17,
+    "Name": "Rene Bourque"
+  },
+  {
+    "PlayerID": 30000011,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "C",
+    "Jersey": 13,
+    "Name": "David Desharnais"
+  },
+  {
+    "PlayerID": 30000012,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "C",
+    "Jersey": 20,
+    "Name": "Lars Eller"
+  },
+  {
+    "PlayerID": 30000013,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "D",
+    "Jersey": 74,
+    "Name": "Alexei Emelin"
+  },
+  {
+    "PlayerID": 30000014,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "C",
+    "Jersey": 27,
+    "Name": "Alex Galchenyuk"
+  },
+  {
+    "PlayerID": 30000015,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "RW",
+    "Jersey": 11,
+    "Name": "Brendan Gallagher"
+  },
+  {
+    "PlayerID": 30000018,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "D",
+    "Jersey": 79,
+    "Name": "Andrei Markov"
+  },
+  {
+    "PlayerID": 30000019,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "LW",
+    "Jersey": 67,
+    "Name": "Max Pacioretty"
+  },
+  {
+    "PlayerID": 30000020,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "RW",
+    "Jersey": 11,
+    "Name": "P.A. Parenteau"
+  },
+  {
+    "PlayerID": 30000021,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "C",
+    "Jersey": 14,
+    "Name": "Tomas Plekanec"
+  },
+  {
+    "PlayerID": 30000024,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "D",
+    "Jersey": 76,
+    "Name": "P.K. Subban"
+  },
+  {
+    "PlayerID": 30000026,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "RW",
+    "Jersey": 22,
+    "Name": "Dale Weise"
+  },
+  {
+    "PlayerID": 30000027,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "C",
+    "Jersey": 42,
+    "Name": "Tyler Bozak"
+  },
+  {
+    "PlayerID": 30000030,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "D",
+    "Jersey": 51,
+    "Name": "Jake Gardiner"
+  },
+  {
+    "PlayerID": 30000031,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "C",
+    "Jersey": 13,
+    "Name": "Peter Holland"
+  },
+  {
+    "PlayerID": 30000032,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "C",
+    "Jersey": 43,
+    "Name": "Nazem Kadri"
+  },
+  {
+    "PlayerID": 30000033,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "RW",
+    "Jersey": 81,
+    "Name": "Phil Kessel"
+  },
+  {
+    "PlayerID": 30000034,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "C",
+    "Jersey": 47,
+    "Name": "Leo Komarov"
+  },
+  {
+    "PlayerID": 30000036,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "RW",
+    "Jersey": 19,
+    "Name": "Joffrey Lupul"
+  },
+  {
+    "PlayerID": 30000038,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "D",
+    "Jersey": 2,
+    "Name": "Dion Phaneuf"
+  },
+  {
+    "PlayerID": 30000039,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "D",
+    "Jersey": 46,
+    "Name": "Roman Polak"
+  },
+  {
+    "PlayerID": 30000040,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "D",
+    "Jersey": 44,
+    "Name": "Morgan Rielly"
+  },
+  {
+    "PlayerID": 30000041,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "D",
+    "Jersey": null,
+    "Name": "Stephane Robidas"
+  },
+  {
+    "PlayerID": 30000043,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "LW",
+    "Jersey": 25,
+    "Name": "James van Riemsdyk"
+  },
+  {
+    "PlayerID": 30000044,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "RW",
+    "Jersey": 26,
+    "Name": "Daniel Winnik"
+  },
+  {
+    "PlayerID": 30000045,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "G",
+    "Jersey": 35,
+    "Name": "Steve Mason"
+  },
+  {
+    "PlayerID": 30000046,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "G",
+    "Jersey": 40,
+    "Name": "Tuukka Rask"
+  },
+  {
+    "PlayerID": 30000048,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "RW",
+    "Jersey": 78,
+    "Name": "Pierre-Edouard Bellemare"
+  },
+  {
+    "PlayerID": 30000049,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "D",
+    "Jersey": 55,
+    "Name": "Braydon Coburn"
+  },
+  {
+    "PlayerID": 30000050,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "C",
+    "Jersey": 14,
+    "Name": "Sean Couturier"
+  },
+  {
+    "PlayerID": 30000051,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "D",
+    "Jersey": 15,
+    "Name": "Michael Del Zotto"
+  },
+  {
+    "PlayerID": 30000052,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "C",
+    "Jersey": 28,
+    "Name": "Claude Giroux"
+  },
+  {
+    "PlayerID": 30000055,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "D",
+    "Jersey": 47,
+    "Name": "Andrew MacDonald"
+  },
+  {
+    "PlayerID": 30000056,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "LW",
+    "Jersey": 12,
+    "Name": "Michael Raffl"
+  },
+  {
+    "PlayerID": 30000057,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "RW",
+    "Jersey": 24,
+    "Name": "Matt Read"
+  },
+  {
+    "PlayerID": 30000059,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "C",
+    "Jersey": 10,
+    "Name": "Brayden Schenn"
+  },
+  {
+    "PlayerID": 30000060,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "D",
+    "Jersey": 2,
+    "Name": "Luke Schenn"
+  },
+  {
+    "PlayerID": 30000061,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "RW",
+    "Jersey": 17,
+    "Name": "Wayne Simmonds"
+  },
+  {
+    "PlayerID": 30000062,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "D",
+    "Jersey": 32,
+    "Name": "Mark Streit"
+  },
+  {
+    "PlayerID": 30000064,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "RW",
+    "Jersey": 93,
+    "Name": "Jakub Voracek"
+  },
+  {
+    "PlayerID": 30000065,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "C",
+    "Jersey": 37,
+    "Name": "Patrice Bergeron"
+  },
+  {
+    "PlayerID": 30000066,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "D",
+    "Jersey": 33,
+    "Name": "Zdeno Chara"
+  },
+  {
+    "PlayerID": 30000068,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "LW",
+    "Jersey": 21,
+    "Name": "Loui Eriksson"
+  },
+  {
+    "PlayerID": 30000070,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "D",
+    "Jersey": 27,
+    "Name": "Dougie Hamilton"
+  },
+  {
+    "PlayerID": 30000071,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "C",
+    "Jersey": 22,
+    "Name": "Chris Kelly"
+  },
+  {
+    "PlayerID": 30000072,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "D",
+    "Jersey": 47,
+    "Name": "Torey Krug"
+  },
+  {
+    "PlayerID": 30000073,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "LW",
+    "Jersey": 27,
+    "Name": "Milan Lucic"
+  },
+  {
+    "PlayerID": 30000074,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "LW",
+    "Jersey": 63,
+    "Name": "Brad Marchand"
+  },
+  {
+    "PlayerID": 30000075,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "D",
+    "Jersey": 54,
+    "Name": "Adam McQuaid"
+  },
+  {
+    "PlayerID": 30000076,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "D",
+    "Jersey": 86,
+    "Name": "Kevan Miller"
+  },
+  {
+    "PlayerID": 30000079,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "D",
+    "Jersey": 4,
+    "Name": "Dennis Seidenberg"
+  },
+  {
+    "PlayerID": 30000080,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "RW",
+    "Jersey": 18,
+    "Name": "Reilly Smith"
+  },
+  {
+    "PlayerID": 30000081,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "C",
+    "Jersey": 34,
+    "Name": "Carl Soderberg"
+  },
+  {
+    "PlayerID": 30000082,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "C",
+    "Jersey": 51,
+    "Name": "Ryan Spooner"
+  },
+  {
+    "PlayerID": 30000083,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "G",
+    "Jersey": 30,
+    "Name": "Ryan Miller"
+  },
+  {
+    "PlayerID": 30000085,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "D",
+    "Jersey": 2,
+    "Name": "Kevin Bieksa"
+  },
+  {
+    "PlayerID": 30000086,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "C",
+    "Jersey": 13,
+    "Name": "Nick Bonino"
+  },
+  {
+    "PlayerID": 30000087,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "LW",
+    "Jersey": 14,
+    "Name": "Alexandre Burrows"
+  },
+  {
+    "PlayerID": 30000089,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "D",
+    "Jersey": 23,
+    "Name": "Alexander Edler"
+  },
+  {
+    "PlayerID": 30000090,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "D",
+    "Jersey": 2,
+    "Name": "Dan Hamhuis"
+  },
+  {
+    "PlayerID": 30000091,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "RW",
+    "Jersey": 36,
+    "Name": "Jannik Hansen"
+  },
+  {
+    "PlayerID": 30000093,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "RW",
+    "Jersey": 44,
+    "Name": "Zack Kassian"
+  },
+  {
+    "PlayerID": 30000094,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "C",
+    "Jersey": 16,
+    "Name": "Shawn Matthias"
+  },
+  {
+    "PlayerID": 30000095,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "C",
+    "Jersey": 15,
+    "Name": "Brad Richardson"
+  },
+  {
+    "PlayerID": 30000096,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "D",
+    "Jersey": 5,
+    "Name": "Luca Sbisa"
+  },
+  {
+    "PlayerID": 30000097,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "LW",
+    "Jersey": 22,
+    "Name": "Daniel Sedin"
+  },
+  {
+    "PlayerID": 30000098,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "C",
+    "Jersey": 33,
+    "Name": "Henrik Sedin"
+  },
+  {
+    "PlayerID": 30000100,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "D",
+    "Jersey": 8,
+    "Name": "Christopher Tanev"
+  },
+  {
+    "PlayerID": 30000102,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "RW",
+    "Jersey": 17,
+    "Name": "Radim Vrbata"
+  },
+  {
+    "PlayerID": 30000103,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "C",
+    "Jersey": 11,
+    "Name": "Mikael Backlund"
+  },
+  {
+    "PlayerID": 30000105,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "LW",
+    "Jersey": 17,
+    "Name": "Lance Bouma"
+  },
+  {
+    "PlayerID": 30000106,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "D",
+    "Jersey": 7,
+    "Name": "T.J. Brodie"
+  },
+  {
+    "PlayerID": 30000107,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "C",
+    "Jersey": 41,
+    "Name": "Paul Byron"
+  },
+  {
+    "PlayerID": 30000108,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "C",
+    "Jersey": 8,
+    "Name": "Joe Colborne"
+  },
+  {
+    "PlayerID": 30000109,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "D",
+    "Jersey": 29,
+    "Name": "Deryk Engelland"
+  },
+  {
+    "PlayerID": 30000110,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "LW",
+    "Jersey": 13,
+    "Name": "Johnny Gaudreau"
+  },
+  {
+    "PlayerID": 30000111,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "D",
+    "Jersey": 5,
+    "Name": "Mark Giordano"
+  },
+  {
+    "PlayerID": 30000113,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "LW",
+    "Jersey": 22,
+    "Name": "Jiri Hudler"
+  },
+  {
+    "PlayerID": 30000115,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "C",
+    "Jersey": 23,
+    "Name": "Sean Monahan"
+  },
+  {
+    "PlayerID": 30000117,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "D",
+    "Jersey": 4,
+    "Name": "Kris Russell"
+  },
+  {
+    "PlayerID": 30000119,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "C",
+    "Jersey": 18,
+    "Name": "Matt Stajan"
+  },
+  {
+    "PlayerID": 30000120,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Dennis Wideman"
+  },
+  {
+    "PlayerID": 30000121,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Antti Niemi"
+  },
+  {
+    "PlayerID": 30000122,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Martin Jones"
+  },
+  {
+    "PlayerID": 30000123,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "G",
+    "Jersey": 32,
+    "Name": "Jonathan Quick"
+  },
+  {
+    "PlayerID": 30000124,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "D",
+    "Jersey": 61,
+    "Name": "Justin Braun"
+  },
+  {
+    "PlayerID": 30000127,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "D",
+    "Jersey": 88,
+    "Name": "Brent Burns"
+  },
+  {
+    "PlayerID": 30000128,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "C",
+    "Jersey": 39,
+    "Name": "Logan Couture"
+  },
+  {
+    "PlayerID": 30000129,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "D",
+    "Jersey": 55,
+    "Name": "Jason Demers"
+  },
+  {
+    "PlayerID": 30000130,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "C",
+    "Jersey": 11,
+    "Name": "Andrew Desjardins"
+  },
+  {
+    "PlayerID": 30000132,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "C",
+    "Jersey": 48,
+    "Name": "Tomas Hertl"
+  },
+  {
+    "PlayerID": 30000133,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "LW",
+    "Jersey": 12,
+    "Name": "Patrick Marleau"
+  },
+  {
+    "PlayerID": 30000136,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "LW",
+    "Jersey": 83,
+    "Name": "Matt Nieto"
+  },
+  {
+    "PlayerID": 30000137,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "C",
+    "Jersey": 8,
+    "Name": "Joe Pavelski"
+  },
+  {
+    "PlayerID": 30000138,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "C",
+    "Jersey": 19,
+    "Name": "Joe Thornton"
+  },
+  {
+    "PlayerID": 30000139,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "C",
+    "Jersey": 50,
+    "Name": "Chris Tierney"
+  },
+  {
+    "PlayerID": 30000140,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "D",
+    "Jersey": 44,
+    "Name": "Marc-Edouard Vlasic"
+  },
+  {
+    "PlayerID": 30000141,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "C",
+    "Jersey": 57,
+    "Name": "Tommy Wingels"
+  },
+  {
+    "PlayerID": 30000142,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "RW",
+    "Jersey": 23,
+    "Name": "Dustin Brown"
+  },
+  {
+    "PlayerID": 30000143,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "C",
+    "Jersey": 77,
+    "Name": "Jeff Carter"
+  },
+  {
+    "PlayerID": 30000144,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "LW",
+    "Jersey": 13,
+    "Name": "Kyle Clifford"
+  },
+  {
+    "PlayerID": 30000145,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "D",
+    "Jersey": 8,
+    "Name": "Drew Doughty"
+  },
+  {
+    "PlayerID": 30000146,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "RW",
+    "Jersey": 12,
+    "Name": "Marian Gaborik"
+  },
+  {
+    "PlayerID": 30000147,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "D",
+    "Jersey": 2,
+    "Name": "Matt Greene"
+  },
+  {
+    "PlayerID": 30000148,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "LW",
+    "Jersey": 21,
+    "Name": "Dwight King"
+  },
+  {
+    "PlayerID": 30000149,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "C",
+    "Jersey": 11,
+    "Name": "Anze Kopitar"
+  },
+  {
+    "PlayerID": 30000150,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "C",
+    "Jersey": 22,
+    "Name": "Trevor Lewis"
+  },
+  {
+    "PlayerID": 30000151,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "D",
+    "Jersey": 27,
+    "Name": "Alec Martinez"
+  },
+  {
+    "PlayerID": 30000152,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "D",
+    "Jersey": 3,
+    "Name": "Brayden McNabb"
+  },
+  {
+    "PlayerID": 30000153,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "LW",
+    "Jersey": 70,
+    "Name": "Tanner Pearson"
+  },
+  {
+    "PlayerID": 30000157,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "C",
+    "Jersey": 73,
+    "Name": "Tyler Toffoli"
+  },
+  {
+    "PlayerID": 30000159,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "RW",
+    "Jersey": 14,
+    "Name": "Justin Williams"
+  },
+  {
+    "PlayerID": 30000162,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "G",
+    "Jersey": 40,
+    "Name": "Carter Hutton"
+  },
+  {
+    "PlayerID": 30000163,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "G",
+    "Jersey": 39,
+    "Name": "Marek Mazanec"
+  },
+  {
+    "PlayerID": 30000164,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "LW",
+    "Jersey": 36,
+    "Name": "Jussi Jokinen"
+  },
+  {
+    "PlayerID": 30000166,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Alex Petrovic"
+  },
+  {
+    "PlayerID": 30000168,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "C",
+    "Jersey": 73,
+    "Name": "Brandon Pirri"
+  },
+  {
+    "PlayerID": 30000170,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "C",
+    "Jersey": 17,
+    "Name": "Derek MacKenzie"
+  },
+  {
+    "PlayerID": 30000173,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "D",
+    "Jersey": 43,
+    "Name": "Steven Kampfer"
+  },
+  {
+    "PlayerID": 30000175,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "C",
+    "Jersey": 33,
+    "Name": "Greg McKegg"
+  },
+  {
+    "PlayerID": 30000177,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "C",
+    "Jersey": 22,
+    "Name": "Rocco Grimaldi"
+  },
+  {
+    "PlayerID": 30000178,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "RW",
+    "Jersey": 48,
+    "Name": "Logan Shaw"
+  },
+  {
+    "PlayerID": 30000182,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "D",
+    "Jersey": 4,
+    "Name": "Ryan Ellis"
+  },
+  {
+    "PlayerID": 30000183,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "C",
+    "Jersey": 9,
+    "Name": "Filip Forsberg"
+  },
+  {
+    "PlayerID": 30000184,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "D",
+    "Jersey": 59,
+    "Name": "Roman Josi"
+  },
+  {
+    "PlayerID": 30000186,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "LW",
+    "Jersey": 51,
+    "Name": "Austin Watson"
+  },
+  {
+    "PlayerID": 30000187,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "RW",
+    "Jersey": 20,
+    "Name": "Miikka Salomaki"
+  },
+  {
+    "PlayerID": 30000188,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "LW",
+    "Jersey": 46,
+    "Name": "Pontus Aberg"
+  },
+  {
+    "PlayerID": 30000189,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "C",
+    "Jersey": 10,
+    "Name": "Colton Sissons"
+  },
+  {
+    "PlayerID": 30000190,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "LW",
+    "Jersey": 50,
+    "Name": "Vladislav Kamenev"
+  },
+  {
+    "PlayerID": 30000192,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "LW",
+    "Jersey": 18,
+    "Name": "James Neal"
+  },
+  {
+    "PlayerID": 30000193,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "D",
+    "Jersey": 2,
+    "Name": "Anthony Bitetto"
+  },
+  {
+    "PlayerID": 30000194,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "D",
+    "Jersey": 28,
+    "Name": "Victor Bartley"
+  },
+  {
+    "PlayerID": 30000195,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "C",
+    "Jersey": 15,
+    "Name": "Craig Smith"
+  },
+  {
+    "PlayerID": 30000199,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "C",
+    "Jersey": 56,
+    "Name": "Kevin Fiala"
+  },
+  {
+    "PlayerID": 30000201,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "G",
+    "Jersey": 1,
+    "Name": "Keith Kinkaid"
+  },
+  {
+    "PlayerID": 30000202,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "G",
+    "Jersey": 40,
+    "Name": "Jeremy Smith"
+  },
+  {
+    "PlayerID": 30000204,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "RW",
+    "Jersey": 21,
+    "Name": "Kyle Palmieri"
+  },
+  {
+    "PlayerID": 30000207,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "D",
+    "Jersey": 28,
+    "Name": "Damon Severson"
+  },
+  {
+    "PlayerID": 30000211,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "D",
+    "Jersey": 52,
+    "Name": "Matt Irwin"
+  },
+  {
+    "PlayerID": 30000212,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Colin Miller"
+  },
+  {
+    "PlayerID": 30000213,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "RW",
+    "Jersey": 10,
+    "Name": "Brett Connolly"
+  },
+  {
+    "PlayerID": 30000219,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "G",
+    "Jersey": 35,
+    "Name": "Al Montoya"
+  },
+  {
+    "PlayerID": 30000220,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Sam Brittain"
+  },
+  {
+    "PlayerID": 30000221,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "G",
+    "Jersey": 35,
+    "Name": "Pekka Rinne"
+  },
+  {
+    "PlayerID": 30000222,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "G",
+    "Jersey": 74,
+    "Name": "Juuse Saros"
+  },
+  {
+    "PlayerID": 30000225,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "C",
+    "Jersey": 27,
+    "Name": "Nick Bjugstad"
+  },
+  {
+    "PlayerID": 30000226,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "C",
+    "Jersey": 21,
+    "Name": "Vincent Trocheck"
+  },
+  {
+    "PlayerID": 30000227,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "D",
+    "Jersey": 19,
+    "Name": "Michael Matheson"
+  },
+  {
+    "PlayerID": 30000228,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "C",
+    "Jersey": 16,
+    "Name": "Aleksander Barkov"
+  },
+  {
+    "PlayerID": 30000229,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "LW",
+    "Jersey": 67,
+    "Name": "Lawson Crouse"
+  },
+  {
+    "PlayerID": 30000230,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "RW",
+    "Jersey": 22,
+    "Name": "Shawn Thornton"
+  },
+  {
+    "PlayerID": 30000231,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "D",
+    "Jersey": 24,
+    "Name": "Cameron Gaunce"
+  },
+  {
+    "PlayerID": 30000232,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "D",
+    "Jersey": 77,
+    "Name": "Dmitry Kulikov"
+  },
+  {
+    "PlayerID": 30000233,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "D",
+    "Jersey": 44,
+    "Name": "Erik Gudbranson"
+  },
+  {
+    "PlayerID": 30000234,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "LW",
+    "Jersey": 19,
+    "Name": "Garrett Wilson"
+  },
+  {
+    "PlayerID": 30000239,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "D",
+    "Jersey": 5,
+    "Name": "Aaron Ekblad"
+  },
+  {
+    "PlayerID": 30000240,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "C",
+    "Jersey": 12,
+    "Name": "Mike Fisher"
+  },
+  {
+    "PlayerID": 30000241,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "C",
+    "Jersey": 19,
+    "Name": "Calle Jarnkrok"
+  },
+  {
+    "PlayerID": 30000245,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "RW",
+    "Jersey": 38,
+    "Name": "Viktor Arvidsson"
+  },
+  {
+    "PlayerID": 30000247,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "C",
+    "Jersey": 16,
+    "Name": "Cody Bass"
+  },
+  {
+    "PlayerID": 30000248,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "C",
+    "Jersey": 33,
+    "Name": "Colin Wilson"
+  },
+  {
+    "PlayerID": 30000250,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "D",
+    "Jersey": 14,
+    "Name": "Mattias Ekholm"
+  },
+  {
+    "PlayerID": 30000253,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "D",
+    "Jersey": 3,
+    "Name": "Seth Jones"
+  },
+  {
+    "PlayerID": 30000259,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "G",
+    "Jersey": 41,
+    "Name": "Anthony Stolarz"
+  },
+  {
+    "PlayerID": 30000260,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "G",
+    "Jersey": 41,
+    "Name": "Jaroslav Halak"
+  },
+  {
+    "PlayerID": 30000263,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "C",
+    "Jersey": 25,
+    "Name": "Nick Cousins"
+  },
+  {
+    "PlayerID": 30000269,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "D",
+    "Jersey": 3,
+    "Name": "Radko Gudas"
+  },
+  {
+    "PlayerID": 30000271,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "D",
+    "Jersey": 53,
+    "Name": "Shayne Gostisbehere"
+  },
+  {
+    "PlayerID": 30000273,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "D",
+    "Jersey": 48,
+    "Name": "Robert Hagg"
+  },
+  {
+    "PlayerID": 30000275,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "C",
+    "Jersey": 91,
+    "Name": "John Tavares"
+  },
+  {
+    "PlayerID": 30000276,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "C",
+    "Jersey": 27,
+    "Name": "Anders Lee"
+  },
+  {
+    "PlayerID": 30000277,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "D",
+    "Jersey": 55,
+    "Name": "Johnny Boychuk"
+  },
+  {
+    "PlayerID": 30000279,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "C",
+    "Jersey": 84,
+    "Name": "Mikhail Grabovski"
+  },
+  {
+    "PlayerID": 30000280,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "LW",
+    "Jersey": 12,
+    "Name": "Josh Bailey"
+  },
+  {
+    "PlayerID": 30000284,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "LW",
+    "Jersey": 86,
+    "Name": "Nikolay Kulemin"
+  },
+  {
+    "PlayerID": 30000285,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "RW",
+    "Jersey": 15,
+    "Name": "Cal Clutterbuck"
+  },
+  {
+    "PlayerID": 30000286,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "D",
+    "Jersey": 14,
+    "Name": "Thomas Hickey"
+  },
+  {
+    "PlayerID": 30000287,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "D",
+    "Jersey": 2,
+    "Name": "Nick Leddy"
+  },
+  {
+    "PlayerID": 30000288,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "LW",
+    "Jersey": 15,
+    "Name": "Matt Martin"
+  },
+  {
+    "PlayerID": 30000290,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "D",
+    "Jersey": 50,
+    "Name": "Adam Pelech"
+  },
+  {
+    "PlayerID": 30000294,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "G",
+    "Jersey": 35,
+    "Name": "Cory Schneider"
+  },
+  {
+    "PlayerID": 30000295,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "G",
+    "Jersey": 45,
+    "Name": "Magnus Hellberg"
+  },
+  {
+    "PlayerID": 30000296,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "G",
+    "Jersey": 32,
+    "Name": "Antti Raanta"
+  },
+  {
+    "PlayerID": 30000298,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "RW",
+    "Jersey": 22,
+    "Name": "Jordin Tootoo"
+  },
+  {
+    "PlayerID": 30000299,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Andy Greene"
+  },
+  {
+    "PlayerID": 30000301,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "D",
+    "Jersey": 2,
+    "Name": "John Moore"
+  },
+  {
+    "PlayerID": 30000303,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Adam Larsson"
+  },
+  {
+    "PlayerID": 30000304,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "LW",
+    "Jersey": 13,
+    "Name": "Michael Cammalleri"
+  },
+  {
+    "PlayerID": 30000305,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "C",
+    "Jersey": 19,
+    "Name": "Travis Zajac"
+  },
+  {
+    "PlayerID": 30000309,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "RW",
+    "Jersey": 24,
+    "Name": "Stephen Gionta"
+  },
+  {
+    "PlayerID": 30000315,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "D",
+    "Jersey": 8,
+    "Name": "Kevin Klein"
+  },
+  {
+    "PlayerID": 30000318,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "RW",
+    "Jersey": 46,
+    "Name": "Jayson Megna"
+  },
+  {
+    "PlayerID": 30000319,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "LW",
+    "Jersey": 24,
+    "Name": "Viktor Stalberg"
+  },
+  {
+    "PlayerID": 30000320,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "LW",
+    "Jersey": 20,
+    "Name": "Chris Kreider"
+  },
+  {
+    "PlayerID": 30000321,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "C",
+    "Jersey": 21,
+    "Name": "Derek Stepan"
+  },
+  {
+    "PlayerID": 30000322,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "C",
+    "Jersey": 24,
+    "Name": "Oscar Lindberg"
+  },
+  {
+    "PlayerID": 30000324,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "D",
+    "Jersey": 76,
+    "Name": "Brady Skjei"
+  },
+  {
+    "PlayerID": 30000325,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "C",
+    "Jersey": 28,
+    "Name": "Dominic Moore"
+  },
+  {
+    "PlayerID": 30000326,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "D",
+    "Jersey": 3,
+    "Name": "Keith Yandle"
+  },
+  {
+    "PlayerID": 30000328,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "LW",
+    "Jersey": 15,
+    "Name": "Tanner Glass"
+  },
+  {
+    "PlayerID": 30000331,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "RW",
+    "Jersey": 19,
+    "Name": "Jesper Fast"
+  },
+  {
+    "PlayerID": 30000333,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "G",
+    "Jersey": 1,
+    "Name": "Thomas Greiss"
+  },
+  {
+    "PlayerID": 30000335,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "G",
+    "Jersey": 30,
+    "Name": "Michal Neuvirth"
+  },
+  {
+    "PlayerID": 30000338,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "C",
+    "Jersey": 10,
+    "Name": "Alan Quine"
+  },
+  {
+    "PlayerID": 30000341,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "LW",
+    "Jersey": 72,
+    "Name": "Anthony Beauvillier"
+  },
+  {
+    "PlayerID": 30000345,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "C",
+    "Jersey": 76,
+    "Name": "Chris VandeVelde"
+  },
+  {
+    "PlayerID": 30000346,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "D",
+    "Jersey": 23,
+    "Name": "Brandon Manning"
+  },
+  {
+    "PlayerID": 30000349,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "C",
+    "Jersey": 11,
+    "Name": "Travis Konecny"
+  },
+  {
+    "PlayerID": 30000350,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "C",
+    "Jersey": 21,
+    "Name": "Ryan White"
+  },
+  {
+    "PlayerID": 30000352,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Eddie Lack"
+  },
+  {
+    "PlayerID": 30000354,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "G",
+    "Jersey": 70,
+    "Name": "Braden Holtby"
+  },
+  {
+    "PlayerID": 30000355,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "D",
+    "Jersey": 65,
+    "Name": "Ron Hainsey"
+  },
+  {
+    "PlayerID": 30000356,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "C",
+    "Jersey": 12,
+    "Name": "Eric Staal"
+  },
+  {
+    "PlayerID": 30000357,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "RW",
+    "Jersey": 10,
+    "Name": "Kris Versteeg"
+  },
+  {
+    "PlayerID": 30000358,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "C",
+    "Jersey": 11,
+    "Name": "Jordan Staal"
+  },
+  {
+    "PlayerID": 30000359,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "C",
+    "Jersey": 20,
+    "Name": "Riley Nash"
+  },
+  {
+    "PlayerID": 30000364,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "D",
+    "Jersey": 7,
+    "Name": "Ryan Murphy"
+  },
+  {
+    "PlayerID": 30000368,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "D",
+    "Jersey": 22,
+    "Name": "Brett Pesce"
+  },
+  {
+    "PlayerID": 30000369,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "LW",
+    "Jersey": 61,
+    "Name": "Sergey Tolchinsky"
+  },
+  {
+    "PlayerID": 30000372,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "C",
+    "Jersey": 33,
+    "Name": "Derek Ryan"
+  },
+  {
+    "PlayerID": 30000375,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "RW",
+    "Jersey": 43,
+    "Name": "Tom Wilson"
+  },
+  {
+    "PlayerID": 30000377,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "LW",
+    "Jersey": 25,
+    "Name": "Jason Chimera"
+  },
+  {
+    "PlayerID": 30000378,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "LW",
+    "Jersey": 8,
+    "Name": "Alex Ovechkin"
+  },
+  {
+    "PlayerID": 30000379,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "RW",
+    "Jersey": 77,
+    "Name": "T.J. Oshie"
+  },
+  {
+    "PlayerID": 30000380,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "D",
+    "Jersey": 2,
+    "Name": "Matt Niskanen"
+  },
+  {
+    "PlayerID": 30000381,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "D",
+    "Jersey": 27,
+    "Name": "Karl Alzner"
+  },
+  {
+    "PlayerID": 30000382,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "C",
+    "Jersey": 92,
+    "Name": "Evgeny Kuznetsov"
+  },
+  {
+    "PlayerID": 30000384,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "D",
+    "Jersey": 9,
+    "Name": "Dmitry Orlov"
+  },
+  {
+    "PlayerID": 30000388,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "D",
+    "Jersey": 8,
+    "Name": "Connor Carrick"
+  },
+  {
+    "PlayerID": 30000392,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "G",
+    "Jersey": 35,
+    "Name": "Tristan Jarry"
+  },
+  {
+    "PlayerID": 30000393,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "G",
+    "Jersey": 70,
+    "Name": "Joonas Korpisalo"
+  },
+  {
+    "PlayerID": 30000394,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "C",
+    "Jersey": 7,
+    "Name": "Matt Cullen"
+  },
+  {
+    "PlayerID": 30000396,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "LW",
+    "Jersey": 25,
+    "Name": "Tom Sestito"
+  },
+  {
+    "PlayerID": 30000397,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "LW",
+    "Jersey": 57,
+    "Name": "David Perron"
+  },
+  {
+    "PlayerID": 30000398,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "D",
+    "Jersey": 12,
+    "Name": "Ben Lovejoy"
+  },
+  {
+    "PlayerID": 30000400,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "D",
+    "Jersey": 5,
+    "Name": "David Warsofsky"
+  },
+  {
+    "PlayerID": 30000401,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "RW",
+    "Jersey": 8,
+    "Name": "Beau Bennett"
+  },
+  {
+    "PlayerID": 30000403,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "RW",
+    "Jersey": 45,
+    "Name": "Josh Archibald"
+  },
+  {
+    "PlayerID": 30000404,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "C",
+    "Jersey": 23,
+    "Name": "Scott Wilson"
+  },
+  {
+    "PlayerID": 30000405,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "C",
+    "Jersey": 40,
+    "Name": "Oskar Sundqvist"
+  },
+  {
+    "PlayerID": 30000410,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "LW",
+    "Jersey": 43,
+    "Name": "Conor Sheary"
+  },
+  {
+    "PlayerID": 30000412,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "LW",
+    "Jersey": 43,
+    "Name": "Scott Hartnell"
+  },
+  {
+    "PlayerID": 30000414,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "RW",
+    "Jersey": 40,
+    "Name": "Jared Boll"
+  },
+  {
+    "PlayerID": 30000417,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "D",
+    "Jersey": 44,
+    "Name": "Kevin Connauton"
+  },
+  {
+    "PlayerID": 30000418,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "D",
+    "Jersey": 58,
+    "Name": "David Savard"
+  },
+  {
+    "PlayerID": 30000419,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "C",
+    "Jersey": 45,
+    "Name": "Michael Chaput"
+  },
+  {
+    "PlayerID": 30000420,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "D",
+    "Jersey": 47,
+    "Name": "Dalton Prout"
+  },
+  {
+    "PlayerID": 30000421,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "RW",
+    "Jersey": 13,
+    "Name": "Cam Atkinson"
+  },
+  {
+    "PlayerID": 30000422,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "C",
+    "Jersey": 25,
+    "Name": "William Karlsson"
+  },
+  {
+    "PlayerID": 30000424,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "D",
+    "Jersey": 27,
+    "Name": "Ryan Murray"
+  },
+  {
+    "PlayerID": 30000425,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "RW",
+    "Jersey": 34,
+    "Name": "Josh Anderson"
+  },
+  {
+    "PlayerID": 30000426,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "C",
+    "Jersey": 10,
+    "Name": "Alexander Wennberg"
+  },
+  {
+    "PlayerID": 30000428,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "RW",
+    "Jersey": 28,
+    "Name": "Oliver Bjorkstrand"
+  },
+  {
+    "PlayerID": 30000429,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "LW",
+    "Jersey": 22,
+    "Name": "Sonny Milano"
+  },
+  {
+    "PlayerID": 30000430,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "G",
+    "Jersey": 34,
+    "Name": "James Reimer"
+  },
+  {
+    "PlayerID": 30000432,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "G",
+    "Jersey": 41,
+    "Name": "Craig Anderson"
+  },
+  {
+    "PlayerID": 30000433,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "G",
+    "Jersey": 29,
+    "Name": "Matthew O'Connor"
+  },
+  {
+    "PlayerID": 30000439,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "D",
+    "Jersey": 2,
+    "Name": "Matt Hunwick"
+  },
+  {
+    "PlayerID": 30000440,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "C",
+    "Jersey": 11,
+    "Name": "Zach Hyman"
+  },
+  {
+    "PlayerID": 30000442,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "D",
+    "Jersey": 54,
+    "Name": "Scott Harrington"
+  },
+  {
+    "PlayerID": 30000443,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "RW",
+    "Jersey": 28,
+    "Name": "Kasperi Kapanen"
+  },
+  {
+    "PlayerID": 30000445,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "D",
+    "Jersey": 65,
+    "Name": "Erik Karlsson"
+  },
+  {
+    "PlayerID": 30000447,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "RW",
+    "Jersey": 25,
+    "Name": "Chris Neil"
+  },
+  {
+    "PlayerID": 30000449,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "RW",
+    "Jersey": 9,
+    "Name": "Bobby Ryan"
+  },
+  {
+    "PlayerID": 30000450,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "C",
+    "Jersey": 11,
+    "Name": "Shane Prince"
+  },
+  {
+    "PlayerID": 30000451,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "LW",
+    "Jersey": 16,
+    "Name": "Clarke MacArthur"
+  },
+  {
+    "PlayerID": 30000452,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "C",
+    "Jersey": 7,
+    "Name": "Kyle Turris"
+  },
+  {
+    "PlayerID": 30000459,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "D",
+    "Jersey": 33,
+    "Name": "Fredrik Claesson"
+  },
+  {
+    "PlayerID": 30000461,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "C",
+    "Jersey": 18,
+    "Name": "Ryan Dzingel"
+  },
+  {
+    "PlayerID": 30000464,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "G",
+    "Jersey": 30,
+    "Name": "Andrew Hammond"
+  },
+  {
+    "PlayerID": 30000465,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "LW",
+    "Jersey": 68,
+    "Name": "Mike Hoffman"
+  },
+  {
+    "PlayerID": 30000466,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "D",
+    "Jersey": 28,
+    "Name": "Patrick Wiercioch"
+  },
+  {
+    "PlayerID": 30000467,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "C",
+    "Jersey": 93,
+    "Name": "Mika Zibanejad"
+  },
+  {
+    "PlayerID": 30000469,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "C",
+    "Jersey": 15,
+    "Name": "Zack Smith"
+  },
+  {
+    "PlayerID": 30000472,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "D",
+    "Jersey": 74,
+    "Name": "Mark Borowiecki"
+  },
+  {
+    "PlayerID": 30000473,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "LW",
+    "Jersey": 12,
+    "Name": "Matt Puempel"
+  },
+  {
+    "PlayerID": 30000475,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "RW",
+    "Jersey": 39,
+    "Name": "Alex Chiasson"
+  },
+  {
+    "PlayerID": 30000476,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "D",
+    "Jersey": 5,
+    "Name": "Cody Ceci"
+  },
+  {
+    "PlayerID": 30000477,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "LW",
+    "Jersey": 13,
+    "Name": "Nick Paul"
+  },
+  {
+    "PlayerID": 30000478,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "D",
+    "Jersey": 67,
+    "Name": "Ben Harpur"
+  },
+  {
+    "PlayerID": 30000483,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "RW",
+    "Jersey": 40,
+    "Name": "Michael Grabner"
+  },
+  {
+    "PlayerID": 30000485,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "D",
+    "Jersey": 52,
+    "Name": "Martin Marincin"
+  },
+  {
+    "PlayerID": 30000486,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "C",
+    "Jersey": 29,
+    "Name": "William Nylander"
+  },
+  {
+    "PlayerID": 30000488,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "RW",
+    "Jersey": 14,
+    "Name": "Richard Panik"
+  },
+  {
+    "PlayerID": 30000489,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "C",
+    "Jersey": 74,
+    "Name": "Sam Carrick"
+  },
+  {
+    "PlayerID": 30000491,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "RW",
+    "Jersey": 12,
+    "Name": "Connor Brown"
+  },
+  {
+    "PlayerID": 30000493,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Chad Johnson"
+  },
+  {
+    "PlayerID": 30000495,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "G",
+    "Jersey": 35,
+    "Name": "Darcy Kuemper"
+  },
+  {
+    "PlayerID": 30000496,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "C",
+    "Jersey": 15,
+    "Name": "Jack Eichel"
+  },
+  {
+    "PlayerID": 30000497,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Cody Franson"
+  },
+  {
+    "PlayerID": 30000498,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "LW",
+    "Jersey": 26,
+    "Name": "Matt Moulson"
+  },
+  {
+    "PlayerID": 30000499,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "LW",
+    "Jersey": 82,
+    "Name": "Marcus Foligno"
+  },
+  {
+    "PlayerID": 30000500,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "LW",
+    "Jersey": 22,
+    "Name": "Johan Larsson"
+  },
+  {
+    "PlayerID": 30000501,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "LW",
+    "Jersey": 44,
+    "Name": "Nicolas Deslauriers"
+  },
+  {
+    "PlayerID": 30000502,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "C",
+    "Jersey": 28,
+    "Name": "Zemgus Girgensons"
+  },
+  {
+    "PlayerID": 30000505,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "D",
+    "Jersey": 13,
+    "Name": "Mark Pysyk"
+  },
+  {
+    "PlayerID": 30000507,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "D",
+    "Jersey": 29,
+    "Name": "Jake McCabe"
+  },
+  {
+    "PlayerID": 30000510,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "LW",
+    "Jersey": 48,
+    "Name": "William Carrier"
+  },
+  {
+    "PlayerID": 30000514,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "LW",
+    "Jersey": 11,
+    "Name": "Zach Parise"
+  },
+  {
+    "PlayerID": 30000515,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "C",
+    "Jersey": 64,
+    "Name": "Mikael Granlund"
+  },
+  {
+    "PlayerID": 30000516,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "D",
+    "Jersey": 20,
+    "Name": "Ryan Suter"
+  },
+  {
+    "PlayerID": 30000517,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "D",
+    "Jersey": 46,
+    "Name": "Jared Spurgeon"
+  },
+  {
+    "PlayerID": 30000519,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "C",
+    "Jersey": 9,
+    "Name": "Mikko Koivu"
+  },
+  {
+    "PlayerID": 30000520,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "RW",
+    "Jersey": 29,
+    "Name": "Jason Pominville"
+  },
+  {
+    "PlayerID": 30000521,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "D",
+    "Jersey": 39,
+    "Name": "Nate Prosser"
+  },
+  {
+    "PlayerID": 30000522,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "RW",
+    "Jersey": 22,
+    "Name": "Nino Niederreiter"
+  },
+  {
+    "PlayerID": 30000523,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "LW",
+    "Jersey": 16,
+    "Name": "Jason Zucker"
+  },
+  {
+    "PlayerID": 30000524,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "D",
+    "Jersey": 25,
+    "Name": "Jonas Brodin"
+  },
+  {
+    "PlayerID": 30000531,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "D",
+    "Jersey": 5,
+    "Name": "Christian Folin"
+  },
+  {
+    "PlayerID": 30000533,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Anders Nilsson"
+  },
+  {
+    "PlayerID": 30000535,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "C",
+    "Jersey": 23,
+    "Name": "Matt Hendricks"
+  },
+  {
+    "PlayerID": 30000536,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "LW",
+    "Jersey": 29,
+    "Name": "Lauri Korpikoski"
+  },
+  {
+    "PlayerID": 30000537,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "LW",
+    "Jersey": 67,
+    "Name": "Benoit Pouliot"
+  },
+  {
+    "PlayerID": 30000538,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "C",
+    "Jersey": 55,
+    "Name": "Mark Letestu"
+  },
+  {
+    "PlayerID": 30000539,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "RW",
+    "Jersey": 14,
+    "Name": "Jordan Eberle"
+  },
+  {
+    "PlayerID": 30000540,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "C",
+    "Jersey": 93,
+    "Name": "Ryan Nugent-Hopkins"
+  },
+  {
+    "PlayerID": 30000541,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "D",
+    "Jersey": 4,
+    "Name": "Justin Schultz"
+  },
+  {
+    "PlayerID": 30000544,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "D",
+    "Jersey": 62,
+    "Name": "Eric Gryba"
+  },
+  {
+    "PlayerID": 30000545,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "D",
+    "Jersey": 77,
+    "Name": "Oscar Klefbom"
+  },
+  {
+    "PlayerID": 30000546,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "D",
+    "Jersey": 8,
+    "Name": "Griffin Reinhart"
+  },
+  {
+    "PlayerID": 30000547,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "LW",
+    "Jersey": 54,
+    "Name": "Jujhar Khaira"
+  },
+  {
+    "PlayerID": 30000548,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "D",
+    "Jersey": 84,
+    "Name": "Joey LaLeggia"
+  },
+  {
+    "PlayerID": 30000549,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "D",
+    "Jersey": 25,
+    "Name": "Darnell Nurse"
+  },
+  {
+    "PlayerID": 30000551,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "LW",
+    "Jersey": 42,
+    "Name": "Anton Slepyshev"
+  },
+  {
+    "PlayerID": 30000553,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "RW",
+    "Jersey": 67,
+    "Name": "Michael Frolik"
+  },
+  {
+    "PlayerID": 30000554,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "LW",
+    "Jersey": 79,
+    "Name": "Micheal Ferland"
+  },
+  {
+    "PlayerID": 30000556,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "C",
+    "Jersey": 42,
+    "Name": "Drew Shore"
+  },
+  {
+    "PlayerID": 30000559,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "C",
+    "Jersey": 93,
+    "Name": "Sam Bennett"
+  },
+  {
+    "PlayerID": 30000563,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "G",
+    "Jersey": 33,
+    "Name": "Cam Talbot"
+  },
+  {
+    "PlayerID": 30000564,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "C",
+    "Jersey": 60,
+    "Name": "Markus Granlund"
+  },
+  {
+    "PlayerID": 30000565,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "RW",
+    "Jersey": 64,
+    "Name": "Nail Yakupov"
+  },
+  {
+    "PlayerID": 30000566,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "D",
+    "Jersey": 2,
+    "Name": "Andrej Sekera"
+  },
+  {
+    "PlayerID": 30000567,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "G",
+    "Jersey": 30,
+    "Name": "Jean-Francois Berube"
+  },
+  {
+    "PlayerID": 30000569,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "C",
+    "Jersey": 21,
+    "Name": "Nick Shore"
+  },
+  {
+    "PlayerID": 30000570,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "C",
+    "Jersey": 40,
+    "Name": "Jordan Weal"
+  },
+  {
+    "PlayerID": 30000571,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "LW",
+    "Jersey": 10,
+    "Name": "Anthony Duclair"
+  },
+  {
+    "PlayerID": 30000573,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "G",
+    "Jersey": 25,
+    "Name": "Jacob Markstrom"
+  },
+  {
+    "PlayerID": 30000575,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "RW",
+    "Jersey": 27,
+    "Name": "Adam Cracknell"
+  },
+  {
+    "PlayerID": 30000576,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "D",
+    "Jersey": 44,
+    "Name": "Matt Bartkowski"
+  },
+  {
+    "PlayerID": 30000577,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Philipp Grubauer"
+  },
+  {
+    "PlayerID": 30000580,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "G",
+    "Jersey": 70,
+    "Name": "Malcolm Subban"
+  },
+  {
+    "PlayerID": 30000581,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "C",
+    "Jersey": 83,
+    "Name": "Jay Beagle"
+  },
+  {
+    "PlayerID": 30000585,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "LW",
+    "Jersey": 65,
+    "Name": "Andre Burakovsky"
+  },
+  {
+    "PlayerID": 30000586,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "C",
+    "Jersey": 28,
+    "Name": "Paul Carey"
+  },
+  {
+    "PlayerID": 30000587,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "D",
+    "Jersey": 74,
+    "Name": "John Carlson"
+  },
+  {
+    "PlayerID": 30000591,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "RW",
+    "Jersey": 76,
+    "Name": "Garrett Mitchell"
+  },
+  {
+    "PlayerID": 30000594,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "D",
+    "Jersey": 88,
+    "Name": "Nate Schmidt"
+  },
+  {
+    "PlayerID": 30000596,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "C",
+    "Jersey": 18,
+    "Name": "Chandler Stephenson"
+  },
+  {
+    "PlayerID": 30000598,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "LW",
+    "Jersey": 39,
+    "Name": "Matt Beleskey"
+  },
+  {
+    "PlayerID": 30000605,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "C",
+    "Jersey": 46,
+    "Name": "David Krejci"
+  },
+  {
+    "PlayerID": 30000606,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "D",
+    "Jersey": 45,
+    "Name": "Joe Morrow"
+  },
+  {
+    "PlayerID": 30000607,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "LW",
+    "Jersey": 88,
+    "Name": "David Pastrnak"
+  },
+  {
+    "PlayerID": 30000609,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "C",
+    "Jersey": 72,
+    "Name": "Frank Vatrano"
+  },
+  {
+    "PlayerID": 30000615,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "RW",
+    "Jersey": 13,
+    "Name": "Kevin Hayes"
+  },
+  {
+    "PlayerID": 30000617,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "C",
+    "Jersey": 10,
+    "Name": "J.T. Miller"
+  },
+  {
+    "PlayerID": 30000620,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "C",
+    "Jersey": 89,
+    "Name": "Sam Gagner"
+  },
+  {
+    "PlayerID": 30000623,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "D",
+    "Jersey": 9,
+    "Name": "Ivan Provorov"
+  },
+  {
+    "PlayerID": 30000625,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "D",
+    "Jersey": 55,
+    "Name": "Nick Schultz"
+  },
+  {
+    "PlayerID": 30000627,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "G",
+    "Jersey": 30,
+    "Name": "Cam Ward"
+  },
+  {
+    "PlayerID": 30000628,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "G",
+    "Jersey": 29,
+    "Name": "Marc-Andre Fleury"
+  },
+  {
+    "PlayerID": 30000629,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "G",
+    "Jersey": 30,
+    "Name": "Matt Murray"
+  },
+  {
+    "PlayerID": 30000631,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "D",
+    "Jersey": 27,
+    "Name": "Justin Faulk"
+  },
+  {
+    "PlayerID": 30000633,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "D",
+    "Jersey": 5,
+    "Name": "Noah Hanifin"
+  },
+  {
+    "PlayerID": 30000636,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "C",
+    "Jersey": 16,
+    "Name": "Elias Lindholm"
+  },
+  {
+    "PlayerID": 30000637,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "LW",
+    "Jersey": 23,
+    "Name": "Brock McGinn"
+  },
+  {
+    "PlayerID": 30000639,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "C",
+    "Jersey": 42,
+    "Name": "Joakim Nordstrom"
+  },
+  {
+    "PlayerID": 30000640,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "C",
+    "Jersey": 49,
+    "Name": "Victor Rask"
+  },
+  {
+    "PlayerID": 30000642,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "LW",
+    "Jersey": 53,
+    "Name": "Jeff Skinner"
+  },
+  {
+    "PlayerID": 30000643,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "D",
+    "Jersey": 74,
+    "Name": "Jaccob Slavin"
+  },
+  {
+    "PlayerID": 30000649,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "D",
+    "Jersey": 4,
+    "Name": "Adam Clendening"
+  },
+  {
+    "PlayerID": 30000650,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "D",
+    "Jersey": 28,
+    "Name": "Ian Cole"
+  },
+  {
+    "PlayerID": 30000651,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "C",
+    "Jersey": 87,
+    "Name": "Sidney Crosby"
+  },
+  {
+    "PlayerID": 30000652,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "C",
+    "Jersey": 39,
+    "Name": "Jean-Sebastien Dea"
+  },
+  {
+    "PlayerID": 30000653,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "D",
+    "Jersey": 8,
+    "Name": "Brian Dumoulin"
+  },
+  {
+    "PlayerID": 30000656,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "RW",
+    "Jersey": 72,
+    "Name": "Patric Hornqvist"
+  },
+  {
+    "PlayerID": 30000657,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "LW",
+    "Jersey": 14,
+    "Name": "Chris Kunitz"
+  },
+  {
+    "PlayerID": 30000658,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "D",
+    "Jersey": 58,
+    "Name": "Kris Letang"
+  },
+  {
+    "PlayerID": 30000659,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "D",
+    "Jersey": 3,
+    "Name": "Olli Maatta"
+  },
+  {
+    "PlayerID": 30000660,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "C",
+    "Jersey": 71,
+    "Name": "Evgeni Malkin"
+  },
+  {
+    "PlayerID": 30000662,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "C",
+    "Jersey": 11,
+    "Name": "Kevin Porter"
+  },
+  {
+    "PlayerID": 30000663,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "RW",
+    "Jersey": 41,
+    "Name": "Daniel Sprong"
+  },
+  {
+    "PlayerID": 30000665,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "G",
+    "Jersey": 34,
+    "Name": "Jake Allen"
+  },
+  {
+    "PlayerID": 30000667,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "G",
+    "Jersey": 72,
+    "Name": "Sergei Bobrovsky"
+  },
+  {
+    "PlayerID": 30000668,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Anton Forsberg"
+  },
+  {
+    "PlayerID": 30000671,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "C",
+    "Jersey": 28,
+    "Name": "Kyle Brodziak"
+  },
+  {
+    "PlayerID": 30000672,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "RW",
+    "Jersey": 36,
+    "Name": "Troy Brouwer"
+  },
+  {
+    "PlayerID": 30000675,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Joel Edmundson"
+  },
+  {
+    "PlayerID": 30000677,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "D",
+    "Jersey": 4,
+    "Name": "Carl Gunnarsson"
+  },
+  {
+    "PlayerID": 30000680,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "RW",
+    "Jersey": 23,
+    "Name": "Dmitrij Jaskin"
+  },
+  {
+    "PlayerID": 30000682,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "LW",
+    "Jersey": 56,
+    "Name": "Magnus Paajarvi"
+  },
+  {
+    "PlayerID": 30000684,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "D",
+    "Jersey": 43,
+    "Name": "Jordan Schmaltz"
+  },
+  {
+    "PlayerID": 30000685,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "D",
+    "Jersey": 22,
+    "Name": "Kevin Shattenkirk"
+  },
+  {
+    "PlayerID": 30000686,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "RW",
+    "Jersey": 10,
+    "Name": "Scottie Upshall"
+  },
+  {
+    "PlayerID": 30000688,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "LW",
+    "Jersey": 11,
+    "Name": "Matt Calvert"
+  },
+  {
+    "PlayerID": 30000691,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "LW",
+    "Jersey": 71,
+    "Name": "Nick Foligno"
+  },
+  {
+    "PlayerID": 30000692,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "C",
+    "Jersey": 92,
+    "Name": "Ryan Johansen"
+  },
+  {
+    "PlayerID": 30000693,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "D",
+    "Jersey": 7,
+    "Name": "Jack Johnson"
+  },
+  {
+    "PlayerID": 30000698,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "D",
+    "Jersey": 51,
+    "Name": "Fedor Tyutin"
+  },
+  {
+    "PlayerID": 30000709,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "LW",
+    "Jersey": 32,
+    "Name": "Josh Leivo"
+  },
+  {
+    "PlayerID": 30000712,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "RW",
+    "Jersey": 26,
+    "Name": "Nikita Soshnikov"
+  },
+  {
+    "PlayerID": 30000713,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "RW",
+    "Jersey": 10,
+    "Name": "Sven Andrighetto"
+  },
+  {
+    "PlayerID": 30000714,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "D",
+    "Jersey": 45,
+    "Name": "Mark Barberio"
+  },
+  {
+    "PlayerID": 30000716,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "LW",
+    "Jersey": 43,
+    "Name": "Daniel Carr"
+  },
+  {
+    "PlayerID": 30000720,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "RW",
+    "Jersey": 34,
+    "Name": "Michael McCarron"
+  },
+  {
+    "PlayerID": 30000721,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "C",
+    "Jersey": 17,
+    "Name": "Torrey Mitchell"
+  },
+  {
+    "PlayerID": 30000722,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "D",
+    "Jersey": 29,
+    "Name": "Greg Pateryn"
+  },
+  {
+    "PlayerID": 30000723,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "D",
+    "Jersey": 26,
+    "Name": "Jeff Petry"
+  },
+  {
+    "PlayerID": 30000724,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "RW",
+    "Jersey": 25,
+    "Name": "Devante Smith-Pelly"
+  },
+  {
+    "PlayerID": 30000732,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "RW",
+    "Jersey": 22,
+    "Name": "Erik Condra"
+  },
+  {
+    "PlayerID": 30000733,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "D",
+    "Jersey": 77,
+    "Name": "Anthony DeAngelo"
+  },
+  {
+    "PlayerID": 30000734,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "LW",
+    "Jersey": 27,
+    "Name": "Jonathan Drouin"
+  },
+  {
+    "PlayerID": 30000736,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "C",
+    "Jersey": 51,
+    "Name": "Valtteri Filppula"
+  },
+  {
+    "PlayerID": 30000737,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "D",
+    "Jersey": 77,
+    "Name": "Victor Hedman"
+  },
+  {
+    "PlayerID": 30000739,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "C",
+    "Jersey": 17,
+    "Name": "Alex Killorn"
+  },
+  {
+    "PlayerID": 30000741,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "C",
+    "Jersey": 13,
+    "Name": "Cedric Paquette"
+  },
+  {
+    "PlayerID": 30000742,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "C",
+    "Jersey": 21,
+    "Name": "Brayden Point"
+  },
+  {
+    "PlayerID": 30000747,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "G",
+    "Jersey": 1,
+    "Name": "Roberto Luongo"
+  },
+  {
+    "PlayerID": 30000750,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "C",
+    "Jersey": 12,
+    "Name": "Radek Faksa"
+  },
+  {
+    "PlayerID": 30000752,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "C",
+    "Jersey": 13,
+    "Name": "Mattias Janmark"
+  },
+  {
+    "PlayerID": 30000753,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "D",
+    "Jersey": 23,
+    "Name": "Jyrki Jokipakka"
+  },
+  {
+    "PlayerID": 30000754,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "D",
+    "Jersey": 3,
+    "Name": "John Klingberg"
+  },
+  {
+    "PlayerID": 30000755,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "D",
+    "Jersey": 23,
+    "Name": "Esa Lindell"
+  },
+  {
+    "PlayerID": 30000756,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "LW",
+    "Jersey": 11,
+    "Name": "Curtis McKenzie"
+  },
+  {
+    "PlayerID": 30000758,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "D",
+    "Jersey": 5,
+    "Name": "Jamie Oleksiak"
+  },
+  {
+    "PlayerID": 30000760,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "LW",
+    "Jersey": 21,
+    "Name": "Antoine Roussel"
+  },
+  {
+    "PlayerID": 30000761,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "C",
+    "Jersey": 7,
+    "Name": "Colton Sceviour"
+  },
+  {
+    "PlayerID": 30000762,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "C",
+    "Jersey": 91,
+    "Name": "Tyler Seguin"
+  },
+  {
+    "PlayerID": 30000763,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "C",
+    "Jersey": 17,
+    "Name": "Devin Shore"
+  },
+  {
+    "PlayerID": 30000765,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "D",
+    "Jersey": 51,
+    "Name": "Brian Campbell"
+  },
+  {
+    "PlayerID": 30000766,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "C",
+    "Jersey": 11,
+    "Name": "Jonathan Huberdeau"
+  },
+  {
+    "PlayerID": 30000767,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "RW",
+    "Jersey": 68,
+    "Name": "Jaromir Jagr"
+  },
+  {
+    "PlayerID": 30000769,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "G",
+    "Jersey": 35,
+    "Name": "Curtis McElhinney"
+  },
+  {
+    "PlayerID": 30000771,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "G",
+    "Jersey": 1,
+    "Name": "Brian Elliott"
+  },
+  {
+    "PlayerID": 30000774,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "C",
+    "Jersey": 17,
+    "Name": "Brandon Dubinsky"
+  },
+  {
+    "PlayerID": 30000775,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "D",
+    "Jersey": 41,
+    "Name": "Justin Falk"
+  },
+  {
+    "PlayerID": 30000776,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "D",
+    "Jersey": 18,
+    "Name": "Cody Goloubef"
+  },
+  {
+    "PlayerID": 30000778,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "C",
+    "Jersey": 38,
+    "Name": "Boone Jenner"
+  },
+  {
+    "PlayerID": 30000780,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "C",
+    "Jersey": 45,
+    "Name": "Lukas Sedlak"
+  },
+  {
+    "PlayerID": 30000783,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "C",
+    "Jersey": 42,
+    "Name": "David Backes"
+  },
+  {
+    "PlayerID": 30000784,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "LW",
+    "Jersey": 49,
+    "Name": "Ivan Barbashev"
+  },
+  {
+    "PlayerID": 30000785,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "D",
+    "Jersey": 19,
+    "Name": "Jay Bouwmeester"
+  },
+  {
+    "PlayerID": 30000786,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "D",
+    "Jersey": 25,
+    "Name": "Chris Butler"
+  },
+  {
+    "PlayerID": 30000789,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "C",
+    "Jersey": 15,
+    "Name": "Robby Fabbri"
+  },
+  {
+    "PlayerID": 30000791,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "C",
+    "Jersey": 92,
+    "Name": "Steve Ott"
+  },
+  {
+    "PlayerID": 30000792,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "D",
+    "Jersey": 55,
+    "Name": "Colton Parayko"
+  },
+  {
+    "PlayerID": 30000793,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "D",
+    "Jersey": 27,
+    "Name": "Alex Pietrangelo"
+  },
+  {
+    "PlayerID": 30000794,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "LW",
+    "Jersey": 17,
+    "Name": "Jaden Schwartz"
+  },
+  {
+    "PlayerID": 30000795,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "C",
+    "Jersey": 26,
+    "Name": "Paul Stastny"
+  },
+  {
+    "PlayerID": 30000796,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "LW",
+    "Jersey": 20,
+    "Name": "Alexander Steen"
+  },
+  {
+    "PlayerID": 30000797,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "RW",
+    "Jersey": 91,
+    "Name": "Vladimir Tarasenko"
+  },
+  {
+    "PlayerID": 30000801,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "G",
+    "Jersey": 37,
+    "Name": "Connor Hellebuyck"
+  },
+  {
+    "PlayerID": 30000802,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Ondrej Pavelec"
+  },
+  {
+    "PlayerID": 30000805,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "C",
+    "Jersey": 3,
+    "Name": "Charlie Coyle"
+  },
+  {
+    "PlayerID": 30000806,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "D",
+    "Jersey": 24,
+    "Name": "Matt Dumba"
+  },
+  {
+    "PlayerID": 30000810,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "LW",
+    "Jersey": 56,
+    "Name": "Erik Haula"
+  },
+  {
+    "PlayerID": 30000813,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Marco Scandella"
+  },
+  {
+    "PlayerID": 30000814,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "C",
+    "Jersey": 10,
+    "Name": "Jordan Schroeder"
+  },
+  {
+    "PlayerID": 30000817,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "LW",
+    "Jersey": 26,
+    "Name": "Thomas Vanek"
+  },
+  {
+    "PlayerID": 30000818,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "RW",
+    "Jersey": 40,
+    "Name": "Joel Armia"
+  },
+  {
+    "PlayerID": 30000819,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "C",
+    "Jersey": 91,
+    "Name": "Alex Burmistrov"
+  },
+  {
+    "PlayerID": 30000820,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "D",
+    "Jersey": 33,
+    "Name": "Dustin Byfuglien"
+  },
+  {
+    "PlayerID": 30000821,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "C",
+    "Jersey": 9,
+    "Name": "Andrew Copp"
+  },
+  {
+    "PlayerID": 30000822,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "LW",
+    "Jersey": 27,
+    "Name": "Nikolaj Ehlers"
+  },
+  {
+    "PlayerID": 30000823,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "D",
+    "Jersey": 39,
+    "Name": "Toby Enstrom"
+  },
+  {
+    "PlayerID": 30000826,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "D",
+    "Jersey": 44,
+    "Name": "Josh Morrissey"
+  },
+  {
+    "PlayerID": 30000827,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "C",
+    "Jersey": 85,
+    "Name": "Mathieu Perreault"
+  },
+  {
+    "PlayerID": 30000828,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "C",
+    "Jersey": 19,
+    "Name": "Nic Petan"
+  },
+  {
+    "PlayerID": 30000830,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "C",
+    "Jersey": 55,
+    "Name": "Mark Scheifele"
+  },
+  {
+    "PlayerID": 30000831,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "RW",
+    "Jersey": 19,
+    "Name": "Drew Stafford"
+  },
+  {
+    "PlayerID": 30000832,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "D",
+    "Jersey": 5,
+    "Name": "Mark Stuart"
+  },
+  {
+    "PlayerID": 30000833,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "RW",
+    "Jersey": 22,
+    "Name": "Chris Thorburn"
+  },
+  {
+    "PlayerID": 30000834,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "D",
+    "Jersey": 8,
+    "Name": "Jacob Trouba"
+  },
+  {
+    "PlayerID": 30000835,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "RW",
+    "Jersey": 26,
+    "Name": "Blake Wheeler"
+  },
+  {
+    "PlayerID": 30000836,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "G",
+    "Jersey": 35,
+    "Name": "Jimmy Howard"
+  },
+  {
+    "PlayerID": 30000838,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "G",
+    "Jersey": 33,
+    "Name": "Scott Darling"
+  },
+  {
+    "PlayerID": 30000841,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "C",
+    "Jersey": 72,
+    "Name": "Andreas Athanasiou"
+  },
+  {
+    "PlayerID": 30000844,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "C",
+    "Jersey": 41,
+    "Name": "Luke Glendening"
+  },
+  {
+    "PlayerID": 30000845,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "D",
+    "Jersey": 3,
+    "Name": "Nick Jensen"
+  },
+  {
+    "PlayerID": 30000846,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "C",
+    "Jersey": 71,
+    "Name": "Dylan Larkin"
+  },
+  {
+    "PlayerID": 30000848,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "RW",
+    "Jersey": 39,
+    "Name": "Anthony Mantha"
+  },
+  {
+    "PlayerID": 30000849,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "D",
+    "Jersey": 3,
+    "Name": "Alexey Marchenko"
+  },
+  {
+    "PlayerID": 30000851,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "LW",
+    "Jersey": 20,
+    "Name": "Drew Miller"
+  },
+  {
+    "PlayerID": 30000853,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "LW",
+    "Jersey": 12,
+    "Name": "Teemu Pulkkinen"
+  },
+  {
+    "PlayerID": 30000854,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "C",
+    "Jersey": 15,
+    "Name": "Riley Sheahan"
+  },
+  {
+    "PlayerID": 30000855,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "D",
+    "Jersey": 42,
+    "Name": "Brendan Smith"
+  },
+  {
+    "PlayerID": 30000856,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "D",
+    "Jersey": 48,
+    "Name": "Ryan Sproul"
+  },
+  {
+    "PlayerID": 30000858,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "C",
+    "Jersey": 15,
+    "Name": "Artem Anisimov"
+  },
+  {
+    "PlayerID": 30000859,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "RW",
+    "Jersey": 39,
+    "Name": "Kyle Baun"
+  },
+  {
+    "PlayerID": 30000860,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Trevor Daley"
+  },
+  {
+    "PlayerID": 30000861,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "C",
+    "Jersey": 56,
+    "Name": "Marko Dano"
+  },
+  {
+    "PlayerID": 30000865,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "RW",
+    "Jersey": 81,
+    "Name": "Marian Hossa"
+  },
+  {
+    "PlayerID": 30000866,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "RW",
+    "Jersey": 88,
+    "Name": "Patrick Kane"
+  },
+  {
+    "PlayerID": 30000867,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "LW",
+    "Jersey": 70,
+    "Name": "Dennis Rasmussen"
+  },
+  {
+    "PlayerID": 30000869,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "D",
+    "Jersey": 7,
+    "Name": "Brent Seabrook"
+  },
+  {
+    "PlayerID": 30000871,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "LW",
+    "Jersey": 86,
+    "Name": "Teuvo Teravainen"
+  },
+  {
+    "PlayerID": 30000872,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "C",
+    "Jersey": 19,
+    "Name": "Jonathan Toews"
+  },
+  {
+    "PlayerID": 30000874,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "G",
+    "Jersey": 36,
+    "Name": "John Gibson"
+  },
+  {
+    "PlayerID": 30000875,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "G",
+    "Jersey": 1,
+    "Name": "Semyon Varlamov"
+  },
+  {
+    "PlayerID": 30000877,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Simon Despres"
+  },
+  {
+    "PlayerID": 30000879,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "D",
+    "Jersey": 42,
+    "Name": "Josh Manson"
+  },
+  {
+    "PlayerID": 30000880,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "LW",
+    "Jersey": 19,
+    "Name": "Patrick Maroon"
+  },
+  {
+    "PlayerID": 30000881,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "D",
+    "Jersey": 75,
+    "Name": "Jaycob Megna"
+  },
+  {
+    "PlayerID": 30000882,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "D",
+    "Jersey": 71,
+    "Name": "Brandon Montour"
+  },
+  {
+    "PlayerID": 30000886,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "RW",
+    "Jersey": 23,
+    "Name": "Stefan Noesen"
+  },
+  {
+    "PlayerID": 30000888,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "C",
+    "Jersey": 67,
+    "Name": "Rickard Rakell"
+  },
+  {
+    "PlayerID": 30000889,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "LW",
+    "Jersey": 37,
+    "Name": "Nick Ritchie"
+  },
+  {
+    "PlayerID": 30000890,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "D",
+    "Jersey": 53,
+    "Name": "Shea Theodore"
+  },
+  {
+    "PlayerID": 30000891,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "RW",
+    "Jersey": 21,
+    "Name": "Chris Wagner"
+  },
+  {
+    "PlayerID": 30000892,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "RW",
+    "Jersey": 26,
+    "Name": "Harry Zolnierczyk"
+  },
+  {
+    "PlayerID": 30000893,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "D",
+    "Jersey": 4,
+    "Name": "Tyson Barrie"
+  },
+  {
+    "PlayerID": 30000896,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "LW",
+    "Jersey": 14,
+    "Name": "Blake Comeau"
+  },
+  {
+    "PlayerID": 30000899,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "C",
+    "Jersey": 25,
+    "Name": "Mikhail Grigorenko"
+  },
+  {
+    "PlayerID": 30000902,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "D",
+    "Jersey": 22,
+    "Name": "Nick Holden"
+  },
+  {
+    "PlayerID": 30000903,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "LW",
+    "Jersey": 92,
+    "Name": "Gabriel Landeskog"
+  },
+  {
+    "PlayerID": 30000904,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "C",
+    "Jersey": 29,
+    "Name": "Nathan MacKinnon"
+  },
+  {
+    "PlayerID": 30000905,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "C",
+    "Jersey": 37,
+    "Name": "Andreas Martinsen"
+  },
+  {
+    "PlayerID": 30000906,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "RW",
+    "Jersey": 96,
+    "Name": "Mikko Rantanen"
+  },
+  {
+    "PlayerID": 30000907,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "RW",
+    "Jersey": 9,
+    "Name": "Jack Skille"
+  },
+  {
+    "PlayerID": 30000909,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "D",
+    "Jersey": 16,
+    "Name": "Nikita Zadorov"
+  },
+  {
+    "PlayerID": 30000912,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "RW",
+    "Jersey": 27,
+    "Name": "Joonas Donskoi"
+  },
+  {
+    "PlayerID": 30000914,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "LW",
+    "Jersey": 23,
+    "Name": "Barclay Goodrow"
+  },
+  {
+    "PlayerID": 30000915,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "C",
+    "Jersey": 38,
+    "Name": "Micheal Haley"
+  },
+  {
+    "PlayerID": 30000916,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "D",
+    "Jersey": 7,
+    "Name": "Paul Martin"
+  },
+  {
+    "PlayerID": 30000919,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "RW",
+    "Jersey": 18,
+    "Name": "Ben Smith"
+  },
+  {
+    "PlayerID": 30000921,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "D",
+    "Jersey": 26,
+    "Name": "Matt Tennyson"
+  },
+  {
+    "PlayerID": 30000922,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "RW",
+    "Jersey": 42,
+    "Name": "Joel Ward"
+  },
+  {
+    "PlayerID": 30000924,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "D",
+    "Jersey": 20,
+    "Name": "Frank Corrado"
+  },
+  {
+    "PlayerID": 30000925,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "D",
+    "Jersey": 38,
+    "Name": "Taylor Fedun"
+  },
+  {
+    "PlayerID": 30000927,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "D",
+    "Jersey": 27,
+    "Name": "Ben Hutton"
+  },
+  {
+    "PlayerID": 30000933,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "D",
+    "Jersey": 7,
+    "Name": "Yannick Weber"
+  },
+  {
+    "PlayerID": 30000934,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "G",
+    "Jersey": 35,
+    "Name": "Louis Domingue"
+  },
+  {
+    "PlayerID": 30000936,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Peter Budaj"
+  },
+  {
+    "PlayerID": 30000937,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Jhonas Enroth"
+  },
+  {
+    "PlayerID": 30000938,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "LW",
+    "Jersey": 89,
+    "Name": "Mikkel Boedker"
+  },
+  {
+    "PlayerID": 30000939,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Klas Dahlbeck"
+  },
+  {
+    "PlayerID": 30000940,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "C",
+    "Jersey": 16,
+    "Name": "Max Domi"
+  },
+  {
+    "PlayerID": 30000942,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "LW",
+    "Jersey": 18,
+    "Name": "Christian Dvorak"
+  },
+  {
+    "PlayerID": 30000943,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "D",
+    "Jersey": 23,
+    "Name": "Oliver Ekman-Larsson"
+  },
+  {
+    "PlayerID": 30000946,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "C",
+    "Jersey": 19,
+    "Name": "Martin Hanzal"
+  },
+  {
+    "PlayerID": 30000948,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "LW",
+    "Jersey": 48,
+    "Name": "Jordan Martinook"
+  },
+  {
+    "PlayerID": 30000953,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "D",
+    "Jersey": 26,
+    "Name": "Michael Stone"
+  },
+  {
+    "PlayerID": 30000955,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "C",
+    "Jersey": 15,
+    "Name": "Andy Andreoff"
+  },
+  {
+    "PlayerID": 30000958,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "D",
+    "Jersey": 24,
+    "Name": "Derek Forbort"
+  },
+  {
+    "PlayerID": 30000961,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Jake Muzzin"
+  },
+  {
+    "PlayerID": 30000963,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "G",
+    "Jersey": 40,
+    "Name": "Robin Lehner"
+  },
+  {
+    "PlayerID": 30000965,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "RW",
+    "Jersey": 20,
+    "Name": "Curtis Lazar"
+  },
+  {
+    "PlayerID": 30000966,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "C",
+    "Jersey": 44,
+    "Name": "Jean-Gabriel Pageau"
+  },
+  {
+    "PlayerID": 30000967,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Chris Wideman"
+  },
+  {
+    "PlayerID": 30000973,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "LW",
+    "Jersey": 63,
+    "Name": "Tyler Ennis"
+  },
+  {
+    "PlayerID": 30000974,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "RW",
+    "Jersey": 12,
+    "Name": "Brian Gionta"
+  },
+  {
+    "PlayerID": 30000975,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "D",
+    "Jersey": 4,
+    "Name": "Josh Gorges"
+  },
+  {
+    "PlayerID": 30000976,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "LW",
+    "Jersey": 9,
+    "Name": "Evander Kane"
+  },
+  {
+    "PlayerID": 30000978,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "LW",
+    "Jersey": 88,
+    "Name": "Jamie McGinn"
+  },
+  {
+    "PlayerID": 30000979,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "C",
+    "Jersey": 90,
+    "Name": "Ryan O'Reilly"
+  },
+  {
+    "PlayerID": 30000980,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "C",
+    "Jersey": 23,
+    "Name": "Sam Reinhart"
+  },
+  {
+    "PlayerID": 30000982,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "D",
+    "Jersey": 2,
+    "Name": "Chad Ruhwedel"
+  },
+  {
+    "PlayerID": 30000984,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "C",
+    "Jersey": 24,
+    "Name": "Reid Boucher"
+  },
+  {
+    "PlayerID": 30000987,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "C",
+    "Jersey": 14,
+    "Name": "Adam Henrique"
+  },
+  {
+    "PlayerID": 30000988,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "C",
+    "Jersey": 16,
+    "Name": "Jacob Josefson"
+  },
+  {
+    "PlayerID": 30000991,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "D",
+    "Jersey": 7,
+    "Name": "Jon Merrill"
+  },
+  {
+    "PlayerID": 30000994,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "RW",
+    "Jersey": 21,
+    "Name": "Lee Stempniak"
+  },
+  {
+    "PlayerID": 30000995,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "C",
+    "Jersey": 37,
+    "Name": "Pavel Zacha"
+  },
+  {
+    "PlayerID": 30000996,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "D",
+    "Jersey": 44,
+    "Name": "Calvin de Haan"
+  },
+  {
+    "PlayerID": 30000997,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "D",
+    "Jersey": 3,
+    "Name": "Travis Hamonic"
+  },
+  {
+    "PlayerID": 30000999,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "D",
+    "Jersey": 42,
+    "Name": "Scott Mayfield"
+  },
+  {
+    "PlayerID": 30001000,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "C",
+    "Jersey": 29,
+    "Name": "Brock Nelson"
+  },
+  {
+    "PlayerID": 30001001,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "C",
+    "Jersey": 51,
+    "Name": "Frans Nielsen"
+  },
+  {
+    "PlayerID": 30001002,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "RW",
+    "Jersey": 21,
+    "Name": "Kyle Okposo"
+  },
+  {
+    "PlayerID": 30001005,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "C",
+    "Jersey": 18,
+    "Name": "Ryan Strome"
+  },
+  {
+    "PlayerID": 30001006,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "G",
+    "Jersey": 50,
+    "Name": "Corey Crawford"
+  },
+  {
+    "PlayerID": 30001009,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "G",
+    "Jersey": 34,
+    "Name": "Petr Mrazek"
+  },
+  {
+    "PlayerID": 30001010,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "LW",
+    "Jersey": 29,
+    "Name": "Bryan Bickell"
+  },
+  {
+    "PlayerID": 30001011,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "D",
+    "Jersey": 56,
+    "Name": "Erik Gustafsson"
+  },
+  {
+    "PlayerID": 30001012,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "RW",
+    "Jersey": 38,
+    "Name": "Ryan Hartman"
+  },
+  {
+    "PlayerID": 30001013,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "C",
+    "Jersey": 48,
+    "Name": "Vinnie Hinostroza"
+  },
+  {
+    "PlayerID": 30001014,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "C",
+    "Jersey": 67,
+    "Name": "Tanner Kero"
+  },
+  {
+    "PlayerID": 30001021,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "C",
+    "Jersey": 65,
+    "Name": "Andrew Shaw"
+  },
+  {
+    "PlayerID": 30001023,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "D",
+    "Jersey": 57,
+    "Name": "Trevor van Riemsdyk"
+  },
+  {
+    "PlayerID": 30001024,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "LW",
+    "Jersey": 8,
+    "Name": "Justin Abdelkader"
+  },
+  {
+    "PlayerID": 30001027,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "D",
+    "Jersey": 65,
+    "Name": "Danny DeKeyser"
+  },
+  {
+    "PlayerID": 30001030,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "D",
+    "Jersey": 25,
+    "Name": "Mike Green"
+  },
+  {
+    "PlayerID": 30001032,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "RW",
+    "Jersey": 13,
+    "Name": "Tomas Jurco"
+  },
+  {
+    "PlayerID": 30001033,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "D",
+    "Jersey": 46,
+    "Name": "Jakub Kindl"
+  },
+  {
+    "PlayerID": 30001034,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "D",
+    "Jersey": 55,
+    "Name": "Niklas Kronwall"
+  },
+  {
+    "PlayerID": 30001036,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "C",
+    "Jersey": 14,
+    "Name": "Gustav Nyquist"
+  },
+  {
+    "PlayerID": 30001037,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "D",
+    "Jersey": 26,
+    "Name": "Kyle Quincey"
+  },
+  {
+    "PlayerID": 30001040,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "LW",
+    "Jersey": 21,
+    "Name": "Tomas Tatar"
+  },
+  {
+    "PlayerID": 30001041,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "LW",
+    "Jersey": 40,
+    "Name": "Henrik Zetterberg"
+  },
+  {
+    "PlayerID": 30001044,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "RW",
+    "Jersey": 23,
+    "Name": "J.T. Brown"
+  },
+  {
+    "PlayerID": 30001046,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "C",
+    "Jersey": 9,
+    "Name": "Tyler Johnson"
+  },
+  {
+    "PlayerID": 30001047,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "RW",
+    "Jersey": 86,
+    "Name": "Nikita Kucherov"
+  },
+  {
+    "PlayerID": 30001048,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "C",
+    "Jersey": 81,
+    "Name": "Jonathan Marchessault"
+  },
+  {
+    "PlayerID": 30001050,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "C",
+    "Jersey": 90,
+    "Name": "Vladislav Namestnikov"
+  },
+  {
+    "PlayerID": 30001051,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "D",
+    "Jersey": 89,
+    "Name": "Nikita Nesterov"
+  },
+  {
+    "PlayerID": 30001052,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "LW",
+    "Jersey": 18,
+    "Name": "Ondrej Palat"
+  },
+  {
+    "PlayerID": 30001056,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "D",
+    "Jersey": 62,
+    "Name": "Andrej Sustr"
+  },
+  {
+    "PlayerID": 30001059,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "D",
+    "Jersey": 28,
+    "Name": "Luke Witkowski"
+  },
+  {
+    "PlayerID": 30001060,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Shea Weber"
+  },
+  {
+    "PlayerID": 30001061,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "G",
+    "Jersey": 1,
+    "Name": "Eric Comrie"
+  },
+  {
+    "PlayerID": 30001062,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "G",
+    "Jersey": 34,
+    "Name": "Michael Hutchinson"
+  },
+  {
+    "PlayerID": 30001063,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "D",
+    "Jersey": 7,
+    "Name": "Ben Chiarot"
+  },
+  {
+    "PlayerID": 30001070,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "LW",
+    "Jersey": 17,
+    "Name": "Adam Lowry"
+  },
+  {
+    "PlayerID": 30001071,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "D",
+    "Jersey": 71,
+    "Name": "Julian Melchiori"
+  },
+  {
+    "PlayerID": 30001072,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "D",
+    "Jersey": 62,
+    "Name": "Nelson Nogier"
+  },
+  {
+    "PlayerID": 30001076,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "C",
+    "Jersey": 29,
+    "Name": "Leon Draisaitl"
+  },
+  {
+    "PlayerID": 30001077,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "C",
+    "Jersey": 51,
+    "Name": "Anton Lander"
+  },
+  {
+    "PlayerID": 30001078,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "D",
+    "Jersey": 82,
+    "Name": "Jordan Oesterle"
+  },
+  {
+    "PlayerID": 30001079,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "G",
+    "Jersey": 30,
+    "Name": "Henrik Lundqvist"
+  },
+  {
+    "PlayerID": 30001082,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "C",
+    "Jersey": 19,
+    "Name": "Derick Brassard"
+  },
+  {
+    "PlayerID": 30001084,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "D",
+    "Jersey": 27,
+    "Name": "Ryan McDonagh"
+  },
+  {
+    "PlayerID": 30001085,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "LW",
+    "Jersey": 61,
+    "Name": "Rick Nash"
+  },
+  {
+    "PlayerID": 30001087,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "RW",
+    "Jersey": 36,
+    "Name": "Mats Zuccarello"
+  },
+  {
+    "PlayerID": 30001088,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "D",
+    "Jersey": 25,
+    "Name": "Brandon Carlo"
+  },
+  {
+    "PlayerID": 30001089,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "RW",
+    "Jersey": 11,
+    "Name": "Jimmy Hayes"
+  },
+  {
+    "PlayerID": 30001091,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "G",
+    "Jersey": 40,
+    "Name": "Devan Dubnyk"
+  },
+  {
+    "PlayerID": 30001097,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "RW",
+    "Jersey": 34,
+    "Name": "Tom Kuhnhackl"
+  },
+  {
+    "PlayerID": 30001099,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "D",
+    "Jersey": 51,
+    "Name": "Derrick Pouliot"
+  },
+  {
+    "PlayerID": 30001100,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "RW",
+    "Jersey": 17,
+    "Name": "Bryan Rust"
+  },
+  {
+    "PlayerID": 30001102,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "C",
+    "Jersey": 49,
+    "Name": "Dominik Simon"
+  },
+  {
+    "PlayerID": 30001105,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "G",
+    "Jersey": 1,
+    "Name": "Mike Condon"
+  },
+  {
+    "PlayerID": 30001107,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "D",
+    "Jersey": 4,
+    "Name": "Taylor Chorney"
+  },
+  {
+    "PlayerID": 30001111,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "RW",
+    "Jersey": 32,
+    "Name": "Brian Flynn"
+  },
+  {
+    "PlayerID": 30001115,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "G",
+    "Jersey": 32,
+    "Name": "Kari Lehtonen"
+  },
+  {
+    "PlayerID": 30001117,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "D",
+    "Jersey": 8,
+    "Name": "Jordie Benn"
+  },
+  {
+    "PlayerID": 30001119,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "RW",
+    "Jersey": 18,
+    "Name": "Patrick Eaves"
+  },
+  {
+    "PlayerID": 30001120,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "C",
+    "Jersey": 83,
+    "Name": "Vernon Fiddler"
+  },
+  {
+    "PlayerID": 30001121,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "D",
+    "Jersey": 28,
+    "Name": "Stephen Johns"
+  },
+  {
+    "PlayerID": 30001124,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "D",
+    "Jersey": 15,
+    "Name": "Patrik Nemeth"
+  },
+  {
+    "PlayerID": 30001125,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "C",
+    "Jersey": 90,
+    "Name": "Jason Spezza"
+  },
+  {
+    "PlayerID": 30001132,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "G",
+    "Jersey": 20,
+    "Name": "Reto Berra"
+  },
+  {
+    "PlayerID": 30001133,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "D",
+    "Jersey": 54,
+    "Name": "Rasmus Andersson"
+  },
+  {
+    "PlayerID": 30001137,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "C",
+    "Jersey": 86,
+    "Name": "Josh Jooris"
+  },
+  {
+    "PlayerID": 30001142,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "D",
+    "Jersey": 32,
+    "Name": "Francois Beauchemin"
+  },
+  {
+    "PlayerID": 30001146,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "C",
+    "Jersey": 9,
+    "Name": "Matt Duchene"
+  },
+  {
+    "PlayerID": 30001147,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Erik Johnson"
+  },
+  {
+    "PlayerID": 30001148,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "LW",
+    "Jersey": 55,
+    "Name": "Cody McLeod"
+  },
+  {
+    "PlayerID": 30001149,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "C",
+    "Jersey": 7,
+    "Name": "John Mitchell"
+  },
+  {
+    "PlayerID": 30001155,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "C",
+    "Jersey": 53,
+    "Name": "Casey Cizikas"
+  },
+  {
+    "PlayerID": 30001173,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Ben Bishop"
+  },
+  {
+    "PlayerID": 30001175,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "C",
+    "Jersey": 24,
+    "Name": "Brian Boyle"
+  },
+  {
+    "PlayerID": 30001176,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "RW",
+    "Jersey": 24,
+    "Name": "Ryan Callahan"
+  },
+  {
+    "PlayerID": 30001177,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "D",
+    "Jersey": 5,
+    "Name": "Jason Garrison"
+  },
+  {
+    "PlayerID": 30001179,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Anton Stralman"
+  },
+  {
+    "PlayerID": 30001183,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "LW",
+    "Jersey": 59,
+    "Name": "Tim Schaller"
+  },
+  {
+    "PlayerID": 30001184,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "D",
+    "Jersey": 88,
+    "Name": "Brandon Davidson"
+  },
+  {
+    "PlayerID": 30001185,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "D",
+    "Jersey": 5,
+    "Name": "Mark Fayne"
+  },
+  {
+    "PlayerID": 30001187,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "LW",
+    "Jersey": 9,
+    "Name": "Taylor Hall"
+  },
+  {
+    "PlayerID": 30001188,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "D",
+    "Jersey": 24,
+    "Name": "Brad Hunt"
+  },
+  {
+    "PlayerID": 30001192,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "RW",
+    "Jersey": 15,
+    "Name": "Tyler Pitlick"
+  },
+  {
+    "PlayerID": 30001194,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "LW",
+    "Jersey": 47,
+    "Name": "Sven Baertschi"
+  },
+  {
+    "PlayerID": 30001196,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "C",
+    "Jersey": 50,
+    "Name": "Brendan Gaunce"
+  },
+  {
+    "PlayerID": 30001199,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "C",
+    "Jersey": 20,
+    "Name": "Brandon Sutter"
+  },
+  {
+    "PlayerID": 30001203,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Frederik Andersen"
+  },
+  {
+    "PlayerID": 30001204,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "D",
+    "Jersey": 53,
+    "Name": "Kevin Gravel"
+  },
+  {
+    "PlayerID": 30001206,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "C",
+    "Jersey": 26,
+    "Name": "Joseph Cramarossa"
+  },
+  {
+    "PlayerID": 30001207,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "D",
+    "Jersey": 4,
+    "Name": "Cam Fowler"
+  },
+  {
+    "PlayerID": 30001208,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "C",
+    "Jersey": 15,
+    "Name": "Ryan Getzlaf"
+  },
+  {
+    "PlayerID": 30001211,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "LW",
+    "Jersey": 58,
+    "Name": "Nicolas Kerdiles"
+  },
+  {
+    "PlayerID": 30001213,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "RW",
+    "Jersey": 7,
+    "Name": "Chris Stewart"
+  },
+  {
+    "PlayerID": 30001214,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "D",
+    "Jersey": 45,
+    "Name": "Sami Vatanen"
+  },
+  {
+    "PlayerID": 30001215,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "G",
+    "Jersey": 32,
+    "Name": "Alex Stalock"
+  },
+  {
+    "PlayerID": 30001218,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "D",
+    "Jersey": 4,
+    "Name": "Zbynek Michalek"
+  },
+  {
+    "PlayerID": 30001219,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "D",
+    "Jersey": 5,
+    "Name": "Connor Murphy"
+  },
+  {
+    "PlayerID": 30001220,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "LW",
+    "Jersey": 29,
+    "Name": "Brendan Perlini"
+  },
+  {
+    "PlayerID": 30001222,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "C",
+    "Jersey": 50,
+    "Name": "Antoine Vermette"
+  },
+  {
+    "PlayerID": 30001224,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "D",
+    "Jersey": 74,
+    "Name": "Dylan DeMelo"
+  },
+  {
+    "PlayerID": 30001225,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "D",
+    "Jersey": 4,
+    "Name": "Brenden Dillon"
+  },
+  {
+    "PlayerID": 30001226,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "RW",
+    "Jersey": 28,
+    "Name": "Timo Meier"
+  },
+  {
+    "PlayerID": 30001229,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "LW",
+    "Jersey": 20,
+    "Name": "Brandon Saad"
+  },
+  {
+    "PlayerID": 30001231,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "C",
+    "Jersey": 18,
+    "Name": "Jay McClement"
+  },
+  {
+    "PlayerID": 30001233,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "C",
+    "Jersey": 97,
+    "Name": "Connor McDavid"
+  },
+  {
+    "PlayerID": 30001235,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "C",
+    "Jersey": 55,
+    "Name": "Noel Acciari"
+  },
+  {
+    "PlayerID": 30001237,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "D",
+    "Jersey": 56,
+    "Name": "Tommy Cross"
+  },
+  {
+    "PlayerID": 30001241,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "D",
+    "Jersey": 5,
+    "Name": "Dan Girardi"
+  },
+  {
+    "PlayerID": 30001242,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "D",
+    "Jersey": 18,
+    "Name": "Marc Staal"
+  },
+  {
+    "PlayerID": 30001245,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "D",
+    "Jersey": 3,
+    "Name": "Marc Methot"
+  },
+  {
+    "PlayerID": 30001246,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "RW",
+    "Jersey": 61,
+    "Name": "Mark Stone"
+  },
+  {
+    "PlayerID": 30001251,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "C",
+    "Jersey": 37,
+    "Name": "Justin Dowling"
+  },
+  {
+    "PlayerID": 30001252,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "C",
+    "Jersey": 20,
+    "Name": "Cody Eakin"
+  },
+  {
+    "PlayerID": 30001253,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "D",
+    "Jersey": 33,
+    "Name": "Alex Goligoski"
+  },
+  {
+    "PlayerID": 30001255,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "LW",
+    "Jersey": 10,
+    "Name": "Patrick Sharp"
+  },
+  {
+    "PlayerID": 30001257,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "D",
+    "Jersey": 4,
+    "Name": "Niklas Hjalmarsson"
+  },
+  {
+    "PlayerID": 30001258,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "D",
+    "Jersey": 2,
+    "Name": "Duncan Keith"
+  },
+  {
+    "PlayerID": 30001260,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "G",
+    "Jersey": 35,
+    "Name": "Anton Khudobin"
+  },
+  {
+    "PlayerID": 30001261,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "C",
+    "Jersey": 7,
+    "Name": "Andrew Cogliano"
+  },
+  {
+    "PlayerID": 30001262,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "D",
+    "Jersey": 5,
+    "Name": "Korbinian Holzer"
+  },
+  {
+    "PlayerID": 30001263,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "C",
+    "Jersey": 17,
+    "Name": "Ryan Kesler"
+  },
+  {
+    "PlayerID": 30001264,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "D",
+    "Jersey": 47,
+    "Name": "Hampus Lindholm"
+  },
+  {
+    "PlayerID": 30001265,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "RW",
+    "Jersey": 10,
+    "Name": "Corey Perry"
+  },
+  {
+    "PlayerID": 30001266,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "C",
+    "Jersey": 48,
+    "Name": "Michael Sgarbossa"
+  },
+  {
+    "PlayerID": 30001267,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "LW",
+    "Jersey": 33,
+    "Name": "Jakob Silfverberg"
+  },
+  {
+    "PlayerID": 30001274,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "D",
+    "Jersey": 55,
+    "Name": "Alex Biega"
+  },
+  {
+    "PlayerID": 30001276,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "C",
+    "Jersey": 53,
+    "Name": "Bo Horvat"
+  },
+  {
+    "PlayerID": 30001278,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "D",
+    "Jersey": 26,
+    "Name": "John-Michael Liles"
+  },
+  {
+    "PlayerID": 30001285,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "D",
+    "Jersey": 27,
+    "Name": "Johnny Oduya"
+  },
+  {
+    "PlayerID": 30001286,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "C",
+    "Jersey": 71,
+    "Name": "Jordan Nolan"
+  },
+  {
+    "PlayerID": 30001289,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "D",
+    "Jersey": 61,
+    "Name": "Xavier Ouellet"
+  },
+  {
+    "PlayerID": 30001290,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "G",
+    "Jersey": 41,
+    "Name": "Mike Smith"
+  },
+  {
+    "PlayerID": 30001292,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "RW",
+    "Jersey": 19,
+    "Name": "Shane Doan"
+  },
+  {
+    "PlayerID": 30001293,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "C",
+    "Jersey": 8,
+    "Name": "Tobias Rieder"
+  },
+  {
+    "PlayerID": 30001294,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "D",
+    "Jersey": 55,
+    "Name": "Rasmus Ristolainen"
+  },
+  {
+    "PlayerID": 30001297,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "LW",
+    "Jersey": 16,
+    "Name": "Andrew Ladd"
+  },
+  {
+    "PlayerID": 30001298,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "C",
+    "Jersey": 18,
+    "Name": "Bryan Little"
+  },
+  {
+    "PlayerID": 30001299,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "D",
+    "Jersey": 57,
+    "Name": "Tyler Myers"
+  },
+  {
+    "PlayerID": 30001300,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "D",
+    "Jersey": 4,
+    "Name": "Paul Postma"
+  },
+  {
+    "PlayerID": 30001301,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "RW",
+    "Jersey": 75,
+    "Name": "Ryan Reaves"
+  },
+  {
+    "PlayerID": 30001302,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "LW",
+    "Jersey": 14,
+    "Name": "Jamie Benn"
+  },
+  {
+    "PlayerID": 30001303,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "RW",
+    "Jersey": 83,
+    "Name": "Ales Hemsky"
+  },
+  {
+    "PlayerID": 30001304,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Calvin Pickard"
+  },
+  {
+    "PlayerID": 30001309,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "C",
+    "Jersey": 90,
+    "Name": "Marcus Johansson"
+  },
+  {
+    "PlayerID": 30001311,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "D",
+    "Jersey": 5,
+    "Name": "David Schlemko"
+  },
+  {
+    "PlayerID": 30001313,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "C",
+    "Jersey": 16,
+    "Name": "Marcus Kruger"
+  },
+  {
+    "PlayerID": 30001314,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "D",
+    "Jersey": 41,
+    "Name": "Robert Bortuzzo"
+  },
+  {
+    "PlayerID": 30001315,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "C",
+    "Jersey": 12,
+    "Name": "Jori Lehtera"
+  },
+  {
+    "PlayerID": 30001318,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "RW",
+    "Jersey": 88,
+    "Name": "Jarome Iginla"
+  },
+  {
+    "PlayerID": 30001319,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "LW",
+    "Jersey": 62,
+    "Name": "Carl Hagelin"
+  },
+  {
+    "PlayerID": 30001320,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "D",
+    "Jersey": 3,
+    "Name": "Clayton Stoner"
+  },
+  {
+    "PlayerID": 30001321,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "LW",
+    "Jersey": 33,
+    "Name": "Markus Hannikainen"
+  },
+  {
+    "PlayerID": 30001322,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "LW",
+    "Jersey": 72,
+    "Name": "Artemi Panarin"
+  },
+  {
+    "PlayerID": 30001324,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "C",
+    "Jersey": 8,
+    "Name": "Cody McCormick"
+  },
+  {
+    "PlayerID": 30001331,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "C",
+    "Jersey": 44,
+    "Name": "Nate Thompson"
+  },
+  {
+    "PlayerID": 30001334,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "C",
+    "Jersey": 19,
+    "Name": "Nicklas Backstrom"
+  },
+  {
+    "PlayerID": 30001335,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "RW",
+    "Jersey": 23,
+    "Name": "Eric Fehr"
+  },
+  {
+    "PlayerID": 30001337,
+    "TeamID": 15,
+    "Team": "WAS",
+    "Position": "D",
+    "Jersey": 44,
+    "Name": "Brooks Orpik"
+  },
+  {
+    "PlayerID": 30001338,
+    "TeamID": 3,
+    "Team": "DET",
+    "Position": "C",
+    "Jersey": 43,
+    "Name": "Darren Helm"
+  },
+  {
+    "PlayerID": 30001343,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "C",
+    "Jersey": 21,
+    "Name": "Patrik Berglund"
+  },
+  {
+    "PlayerID": 30001355,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "D",
+    "Jersey": 47,
+    "Name": "Zach Bogosian"
+  },
+  {
+    "PlayerID": 30001377,
+    "TeamID": 6,
+    "Team": "TB",
+    "Position": "G",
+    "Jersey": 88,
+    "Name": "Andrei Vasilevskiy"
+  },
+  {
+    "PlayerID": 30001380,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "RW",
+    "Jersey": 37,
+    "Name": "Carter Rowney"
+  },
+  {
+    "PlayerID": 30001384,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "D",
+    "Jersey": 32,
+    "Name": "Michal Rozsival"
+  },
+  {
+    "PlayerID": 30001391,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "D",
+    "Jersey": 79,
+    "Name": "Dillon Simpson"
+  },
+  {
+    "PlayerID": 30001413,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "RW",
+    "Jersey": 26,
+    "Name": "Iiro Pakarinen"
+  },
+  {
+    "PlayerID": 30001424,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "LW",
+    "Jersey": 24,
+    "Name": "Phillip Danault"
+  },
+  {
+    "PlayerID": 30001430,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "RW",
+    "Jersey": 68,
+    "Name": "Melker Karlsson"
+  },
+  {
+    "PlayerID": 30001437,
+    "TeamID": 18,
+    "Team": "DAL",
+    "Position": "RW",
+    "Jersey": 25,
+    "Name": "Brett Ritchie"
+  },
+  {
+    "PlayerID": 30001440,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "C",
+    "Jersey": 25,
+    "Name": "Freddie Hamilton"
+  },
+  {
+    "PlayerID": 30001443,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "D",
+    "Jersey": 8,
+    "Name": "Petter Granberg"
+  },
+  {
+    "PlayerID": 30001456,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "G",
+    "Jersey": 1,
+    "Name": "Laurent Brossoit"
+  },
+  {
+    "PlayerID": 30001460,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "D",
+    "Jersey": 15,
+    "Name": "Duncan Siemens"
+  },
+  {
+    "PlayerID": 30001485,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "C",
+    "Jersey": 71,
+    "Name": "Vladimir Sobotka"
+  },
+  {
+    "PlayerID": 30001502,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "C",
+    "Jersey": 10,
+    "Name": "Tom Pyatt"
+  },
+  {
+    "PlayerID": 30001538,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "D",
+    "Jersey": 63,
+    "Name": "Philip Larsen"
+  },
+  {
+    "PlayerID": 30001858,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "RW",
+    "Jersey": 47,
+    "Name": "Alexander Radulov"
+  },
+  {
+    "PlayerID": 30002390,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "RW",
+    "Jersey": 17,
+    "Name": "Anton Rodin"
+  },
+  {
+    "PlayerID": 30002512,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "LW",
+    "Jersey": 62,
+    "Name": "Artturi Lehkonen"
+  },
+  {
+    "PlayerID": 30002513,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "LW",
+    "Jersey": 37,
+    "Name": "J.T. Compher"
+  },
+  {
+    "PlayerID": 30002521,
+    "TeamID": 20,
+    "Team": "STL",
+    "Position": "LW",
+    "Jersey": 82,
+    "Name": "Zach Sanford"
+  },
+  {
+    "PlayerID": 30002529,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "C",
+    "Jersey": 40,
+    "Name": "John Hayden"
+  },
+  {
+    "PlayerID": 30002530,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "LW",
+    "Jersey": 89,
+    "Name": "Pavel Buchnevich"
+  },
+  {
+    "PlayerID": 30002532,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "C",
+    "Jersey": 59,
+    "Name": "Jake Guentzel"
+  },
+  {
+    "PlayerID": 30002546,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "G",
+    "Jersey": 32,
+    "Name": "Jon Gillies"
+  },
+  {
+    "PlayerID": 30002551,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "C",
+    "Jersey": 65,
+    "Name": "Daniel O'Regan"
+  },
+  {
+    "PlayerID": 30002580,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "RW",
+    "Jersey": 66,
+    "Name": "Joshua Ho-Sang"
+  },
+  {
+    "PlayerID": 30002583,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "C",
+    "Jersey": 8,
+    "Name": "Nick Schmaltz"
+  },
+  {
+    "PlayerID": 30002591,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "D",
+    "Jersey": 39,
+    "Name": "Andreas Englund"
+  },
+  {
+    "PlayerID": 30002610,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "D",
+    "Jersey": 88,
+    "Name": "Nikita Tryamkin"
+  },
+  {
+    "PlayerID": 30002693,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "G",
+    "Jersey": 30,
+    "Name": "Aaron Dell"
+  },
+  {
+    "PlayerID": 30002695,
+    "TeamID": 26,
+    "Team": "LA",
+    "Position": "C",
+    "Jersey": 26,
+    "Name": "Nic Dowd"
+  },
+  {
+    "PlayerID": 30002711,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "C",
+    "Jersey": 32,
+    "Name": "Frederick Gaudreau"
+  },
+  {
+    "PlayerID": 30002753,
+    "TeamID": 11,
+    "Team": "NYI",
+    "Position": "LW",
+    "Jersey": 48,
+    "Name": "Connor Jones"
+  },
+  {
+    "PlayerID": 30002758,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "D",
+    "Jersey": 42,
+    "Name": "Gustav Forsling"
+  },
+  {
+    "PlayerID": 30002761,
+    "TeamID": 12,
+    "Team": "NYR",
+    "Position": "LW",
+    "Jersey": 26,
+    "Name": "Jimmy Vesey"
+  },
+  {
+    "PlayerID": 30002770,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "D",
+    "Jersey": 8,
+    "Name": "Zach Werenski"
+  },
+  {
+    "PlayerID": 30002772,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "LW",
+    "Jersey": 81,
+    "Name": "Kyle Connor"
+  },
+  {
+    "PlayerID": 30002776,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "C",
+    "Jersey": 82,
+    "Name": "Colin White"
+  },
+  {
+    "PlayerID": 30002777,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "RW",
+    "Jersey": 6,
+    "Name": "Brock Boeser"
+  },
+  {
+    "PlayerID": 30002801,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "C",
+    "Jersey": 23,
+    "Name": "Jakob Forsbacka Karlsson"
+  },
+  {
+    "PlayerID": 30002813,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "D",
+    "Jersey": 53,
+    "Name": "Gabriel Carlsson"
+  },
+  {
+    "PlayerID": 30002816,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "RW",
+    "Jersey": 86,
+    "Name": "Ondrej Kase"
+  },
+  {
+    "PlayerID": 30002819,
+    "TeamID": 9,
+    "Team": "CAR",
+    "Position": "LW",
+    "Jersey": 20,
+    "Name": "Sebastian Aho"
+  },
+  {
+    "PlayerID": 30002820,
+    "TeamID": 23,
+    "Team": "MIN",
+    "Position": "C",
+    "Jersey": 14,
+    "Name": "Joel Eriksson Ek"
+  },
+  {
+    "PlayerID": 30002824,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "C",
+    "Jersey": 52,
+    "Name": "Jack Roslovic"
+  },
+  {
+    "PlayerID": 30002825,
+    "TeamID": 21,
+    "Team": "NAS",
+    "Position": "D",
+    "Jersey": 73,
+    "Name": "Alexandre Carrier"
+  },
+  {
+    "PlayerID": 30002853,
+    "TeamID": 1,
+    "Team": "BOS",
+    "Position": "C",
+    "Jersey": 52,
+    "Name": "Sean Kuraly"
+  },
+  {
+    "PlayerID": 30003014,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "D",
+    "Jersey": 83,
+    "Name": "Matt Benning"
+  },
+  {
+    "PlayerID": 30003053,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "LW",
+    "Jersey": 13,
+    "Name": "Brandon Tanev"
+  },
+  {
+    "PlayerID": 30003054,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "G",
+    "Jersey": 68,
+    "Name": "Kevin Boyle"
+  },
+  {
+    "PlayerID": 30003077,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "C",
+    "Jersey": 64,
+    "Name": "Tyler Motte"
+  },
+  {
+    "PlayerID": 30003078,
+    "TeamID": 14,
+    "Team": "PIT",
+    "Position": "G",
+    "Jersey": 31,
+    "Name": "Sean Maguire"
+  },
+  {
+    "PlayerID": 30003080,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "G",
+    "Jersey": 34,
+    "Name": "Nick Ellis"
+  },
+  {
+    "PlayerID": 30003083,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "D",
+    "Jersey": 51,
+    "Name": "Troy Stecher"
+  },
+  {
+    "PlayerID": 30003085,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "D",
+    "Jersey": 22,
+    "Name": "Nikita Zaitsev"
+  },
+  {
+    "PlayerID": 30003104,
+    "TeamID": 16,
+    "Team": "CBJ",
+    "Position": "D",
+    "Jersey": 65,
+    "Name": "Markus Nutivaara"
+  },
+  {
+    "PlayerID": 30003109,
+    "TeamID": 25,
+    "Team": "EDM",
+    "Position": "C",
+    "Jersey": 36,
+    "Name": "Drake Caggiula"
+  },
+  {
+    "PlayerID": 30003112,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "RW",
+    "Jersey": 20,
+    "Name": "Marcus Sorensen"
+  },
+  {
+    "PlayerID": 30003115,
+    "TeamID": 27,
+    "Team": "SJ",
+    "Position": "D",
+    "Jersey": 72,
+    "Name": "Tim Heed"
+  },
+  {
+    "PlayerID": 30003117,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Michal Kempny"
+  },
+  {
+    "PlayerID": 30003119,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "D",
+    "Jersey": 54,
+    "Name": "Anton Lindholm"
+  },
+  {
+    "PlayerID": 30003126,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "G",
+    "Jersey": 33,
+    "Name": "David Rittich"
+  },
+  {
+    "PlayerID": 30003130,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "C",
+    "Jersey": 34,
+    "Name": "Auston Matthews"
+  },
+  {
+    "PlayerID": 30003131,
+    "TeamID": 22,
+    "Team": "WPG",
+    "Position": "RW",
+    "Jersey": 29,
+    "Name": "Patrik Laine"
+  },
+  {
+    "PlayerID": 30003134,
+    "TeamID": 24,
+    "Team": "CGY",
+    "Position": "LW",
+    "Jersey": 19,
+    "Name": "Matthew Tkachuk"
+  },
+  {
+    "PlayerID": 30003137,
+    "TeamID": 4,
+    "Team": "MON",
+    "Position": "D",
+    "Jersey": 22,
+    "Name": "Mikhail Sergachev"
+  },
+  {
+    "PlayerID": 30003138,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "D",
+    "Jersey": 6,
+    "Name": "Jakob Chychrun"
+  },
+  {
+    "PlayerID": 30003140,
+    "TeamID": 19,
+    "Team": "COL",
+    "Position": "C",
+    "Jersey": 27,
+    "Name": "Tyson Jost"
+  },
+  {
+    "PlayerID": 30003141,
+    "TeamID": 29,
+    "Team": "ARI",
+    "Position": "C",
+    "Jersey": 14,
+    "Name": "Clayton Keller"
+  },
+  {
+    "PlayerID": 30003142,
+    "TeamID": 30,
+    "Team": "ANA",
+    "Position": "LW",
+    "Jersey": 46,
+    "Name": "Max Jones"
+  },
+  {
+    "PlayerID": 30003230,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": "C",
+    "Jersey": 13,
+    "Name": "Roman Lyubimov"
+  },
+  {
+    "PlayerID": 30003231,
+    "TeamID": 8,
+    "Team": "FLA",
+    "Position": "C",
+    "Jersey": 62,
+    "Name": "Denis Malgin"
+  },
+  {
+    "PlayerID": 30003342,
+    "TeamID": 7,
+    "Team": "TOR",
+    "Position": "C",
+    "Jersey": 16,
+    "Name": "Mitchell Marner"
+  },
+  {
+    "PlayerID": 30003412,
+    "TeamID": 17,
+    "Team": "CHI",
+    "Position": "G",
+    "Jersey": 30,
+    "Name": "Jeff Glass"
+  },
+  {
+    "PlayerID": 30003424,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "C",
+    "Jersey": 58,
+    "Name": "Kevin Rooney"
+  },
+  {
+    "PlayerID": 30003540,
+    "TeamID": 5,
+    "Team": "OTT",
+    "Position": "C",
+    "Jersey": 49,
+    "Name": "Christopher DiDomenico"
+  },
+  {
+    "PlayerID": 30003563,
+    "TeamID": 10,
+    "Team": "NJ",
+    "Position": "D",
+    "Jersey": 32,
+    "Name": "Michael Kapla"
+  },
+  {
+    "PlayerID": 30003567,
+    "TeamID": 28,
+    "Team": "VAN",
+    "Position": "LW",
+    "Jersey": 13,
+    "Name": "Griffen Molino"
+  },
+  {
+    "PlayerID": 30003570,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "LW",
+    "Jersey": 49,
+    "Name": "C.J. Smith"
+  },
+  {
+    "PlayerID": 30003574,
+    "TeamID": 13,
+    "Team": "PHI",
+    "Position": null,
+    "Jersey": 74,
+    "Name": "Mike Vecchione"
+  },
+  {
+    "PlayerID": 30003578,
+    "TeamID": 2,
+    "Team": "BUF",
+    "Position": "C",
+    "Jersey": 42,
+    "Name": "Sean Malone"
+  }
+]

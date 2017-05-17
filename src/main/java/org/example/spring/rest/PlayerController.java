@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * This class serves as the {@link RestController} for serving up Player resources.
+ * This class serves as the {@link RestController} for serving up Person resources.
  */
 @RestController
 public class PlayerController {
