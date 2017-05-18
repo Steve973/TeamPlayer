@@ -1,15 +1,17 @@
 package org.example.spring.model;
 
+import javax.validation.Valid;
+
 /**
- * This is the model object that represents a position, which is an {@link Athlete} on a {@link Team}.
+ * This is the model object that represents a position, which is an {@link Athlete}'s role on a {@link Team}.
  */
 public class Position extends AbstractTeamPlayerEntity {
-    private Athlete athlete;
+    @Valid
     private Team team;
+    @Valid
     private String jersey;
 
-    public Position(Athlete athlete, Team team, String name, String jersey) {
-        this.athlete = athlete;
+    public Position(Team team, String name, String jersey) {
         this.team = team;
         this.name = name;
         this.jersey = jersey;
@@ -24,14 +26,6 @@ public class Position extends AbstractTeamPlayerEntity {
 
     public void setJersey(String jersey) {
         this.jersey = jersey;
-    }
-
-    public Athlete getAthlete() {
-        return athlete;
-    }
-
-    public void setAthlete(Athlete athlete) {
-        this.athlete = athlete;
     }
 
     public Team getTeam() {

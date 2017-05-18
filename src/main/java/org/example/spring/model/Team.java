@@ -1,8 +1,11 @@
 package org.example.spring.model;
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
 /**
  * This is the model object that represents a team.
  */
+@Document
 public class Team extends AbstractTeamPlayerEntity {
     private String key;
     private String conference;

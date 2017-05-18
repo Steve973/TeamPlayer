@@ -1,13 +1,15 @@
 package org.example.spring.rest;
 
-import org.example.spring.data.TeamRepository;
+import org.example.spring.data.team.TeamRepository;
+import org.example.spring.data.validation.TeamValidator;
 import org.example.spring.model.Team;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.Collection;
 
 /**
@@ -60,8 +62,8 @@ public class TeamController {
      * @return all Teams that play in the given conference
      */
     @RequestMapping(value = "/teams/byConference", method = RequestMethod.GET)
-    public Collection<Team> getAllByConference(@RequestParam(value = "conference") String conference) {
-        return teamRepository.findAllByConference(conference);
+    public Page<Team> getAllByConference(@RequestParam(value = "conference") String conference, Pageable pageable) {
+        return teamRepository.findAllByConference(conference, pageable);
     }
 
     /**
@@ -71,7 +73,27 @@ public class TeamController {
      * @return all Teams that play in the given division
      */
     @RequestMapping(value = "/teams/byDivision", method = RequestMethod.GET)
-    public Collection<Team> getAllByDivsion(@RequestParam(value = "division") String division) {
-        return teamRepository.findAllByDivision(division);
+    public Page<Team> getAllByDivsion(@RequestParam(value = "division") String division, Pageable pageable) {
+        return teamRepository.findAllByDivision(division, pageable);
+    }
+
+    @RequestMapping(value = "/teams", method = RequestMethod.POST)
+    public Team createTeam(@Valid @RequestBody Team team) {
+        return teamRepository.insert(team);
+    }
+
+    @RequestMapping(value = "/teams", method = RequestMethod.PUT)
+    public Team updateTeam(@Valid @RequestBody Team team) {
+        return teamRepository.save(team);
+    }
+
+    @RequestMapping(value = "/teams", method = RequestMethod.DELETE)
+    public void deleteTeam(@Valid @RequestBody Team team) {
+        teamRepository.delete(team);
+    }
+
+    @InitBinder("team")
+    protected void initBinder(WebDataBinder binder) {
+        binder.addValidators(new TeamValidator());
     }
 }

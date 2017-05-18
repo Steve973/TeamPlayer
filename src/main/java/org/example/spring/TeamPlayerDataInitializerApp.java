@@ -2,9 +2,8 @@ package org.example.spring;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import org.example.spring.data.AthleteRepository;
-import org.example.spring.data.PositionRepository;
-import org.example.spring.data.TeamRepository;
+import org.example.spring.data.athlete.AthleteRepository;
+import org.example.spring.data.team.TeamRepository;
 import org.example.spring.model.Athlete;
 import org.example.spring.model.Position;
 import org.example.spring.model.Team;
@@ -19,6 +18,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -38,14 +38,11 @@ public class TeamPlayerDataInitializerApp implements CommandLineRunner {
     private File teamFile = new ClassPathResource("teams.json").getFile();
     private AthleteRepository athleteRepository;
     private TeamRepository teamRepository;
-    private PositionRepository positionRepository;
 
     public TeamPlayerDataInitializerApp(@Autowired AthleteRepository athleteRepository,
-                                        @Autowired TeamRepository teamRepository,
-                                        @Autowired PositionRepository positionRepository) throws IOException {
+                                        @Autowired TeamRepository teamRepository) throws IOException {
         this.athleteRepository = athleteRepository;
         this.teamRepository = teamRepository;
-        this.positionRepository = positionRepository;
     }
 
     public static void main(String[] args) {
@@ -56,31 +53,26 @@ public class TeamPlayerDataInitializerApp implements CommandLineRunner {
      * The {@link Position} information must be parsed from the teams.xml file, so this parses those objects
      * to create {@link Athlete} and {@link Team} objects which are then used to create the {@link Position} instance.
      *
-     * @param players a collection of {@link Player}s
-     * @param athletes a collection of {@link Athlete}s
-     * @param teams a collection of {@link Team}s
+     * @param player the {@link Player} that may have a position to parse
+     * @param teams  a collection of {@link Team}s
      * @return the {@link Position}s that are the association of an {@link Athlete} on a {@link Team}
      */
-    private static Set<Position> getPositions(final Set<Player> players, final Set<Athlete> athletes, final Set<Team> teams) {
-        return players.stream()
-                .filter(player -> player.position != null)
-                .map(player -> {
-                    Athlete athlete = athletes.stream()
-                            .filter(person -> person.getName().equals(player.name))
-                            .findFirst()
-                            .orElseThrow(() -> new IllegalArgumentException("No athlete found with name: " + player.name));
+    private static Position getPosition(final Player player, final Set<Team> teams) {
+        return Optional.ofNullable(player)
+                .filter(p -> p.position != null)
+                .map(p -> {
                     Team team = teams.stream()
                             .filter(aTeam -> aTeam.getKey().equals(player.team))
                             .findFirst()
                             .orElseThrow(() -> new IllegalArgumentException("No team found with name: " + player.team));
-                    return new Position(athlete, team, player.position, player.jersey);
-                }).collect(Collectors.toSet());
+                    return new Position(team, player.position, player.jersey);
+                }).orElse(null);
     }
 
     /**
-     * This method removes all {@link Athlete}s, {@link Team}s, and {@link Player}s from the data store.  Then, it
-     * parses the players and teams JSON files and re-populates the data store with fresh data.  After this processing
-     * completes, it prints the number of teams, athletes, and positions that were saved to the data store.
+     * This method removes all {@link Athlete}s and {@link Team}s from the data store.  Then, it parses the
+     * players and teams JSON files and re-populates the data store with fresh data.  After this processing
+     * completes, it prints the number of teams and athletes that were saved to the data store.
      *
      * @param args ignored
      * @throws Exception if there was a problem parsing the JSON files
@@ -88,18 +80,18 @@ public class TeamPlayerDataInitializerApp implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Gson gson = new Gson();
-        Arrays.asList(athleteRepository, teamRepository, positionRepository).forEach(CrudRepository::deleteAll);
+        Arrays.asList(athleteRepository, teamRepository).forEach(CrudRepository::deleteAll);
 
         Set<Team> teams = gson.fromJson(new FileReader(teamFile), new TypeToken<Set<Team>>() {}.getType());
         Set<Player> players = gson.fromJson(new FileReader(playerFile), new TypeToken<Set<Player>>() {}.getType());
-        Set<Athlete> athletes = players.stream().map(player -> new Athlete(player.name)).collect(Collectors.toSet());
-        Set<Position> positions = getPositions(players, athletes, teams);
+        Set<Athlete> athletes = players.stream()
+                .map(player -> new Athlete(player.name, getPosition(player, teams)))
+                .collect(Collectors.toSet());
 
-        teamRepository.save(teams);
-        athleteRepository.save(athletes);
-        positionRepository.save(positions);
+        teamRepository.insert(teams);
+        athleteRepository.insert(athletes);
 
-        System.out.printf("Saved %d teams, %d athletes, and %d positions.%n", teams.size(), athletes.size(), positions.size());
+        System.out.printf("Saved %d teams and %d athletes.%n", teams.size(), athletes.size());
     }
 
     /**
