@@ -14,9 +14,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.data.repository.CrudRepository;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.Arrays;
 import java.util.Optional;
 import java.util.Set;
@@ -34,8 +32,8 @@ import java.util.stream.Collectors;
  */
 @SpringBootApplication
 public class TeamPlayerDataInitializerApp implements CommandLineRunner {
-    private File playerFile = new ClassPathResource("players.json").getFile();
-    private File teamFile = new ClassPathResource("teams.json").getFile();
+    private InputStream playerFile = new ClassPathResource("/players.json").getInputStream();
+    private InputStream teamFile = new ClassPathResource("/teams.json").getInputStream();
     private AthleteRepository athleteRepository;
     private TeamRepository teamRepository;
 
@@ -82,8 +80,8 @@ public class TeamPlayerDataInitializerApp implements CommandLineRunner {
         Gson gson = new Gson();
         Arrays.asList(athleteRepository, teamRepository).forEach(CrudRepository::deleteAll);
 
-        Set<Team> teams = gson.fromJson(new FileReader(teamFile), new TypeToken<Set<Team>>() {}.getType());
-        Set<Player> players = gson.fromJson(new FileReader(playerFile), new TypeToken<Set<Player>>() {}.getType());
+        Set<Team> teams = gson.fromJson(new InputStreamReader(teamFile), new TypeToken<Set<Team>>() {}.getType());
+        Set<Player> players = gson.fromJson(new InputStreamReader(playerFile), new TypeToken<Set<Player>>() {}.getType());
         Set<Athlete> athletes = players.stream()
                 .map(player -> new Athlete(player.name, getPosition(player, teams)))
                 .collect(Collectors.toSet());
