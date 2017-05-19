@@ -12,6 +12,13 @@ public class Athlete extends AbstractTeamPlayerEntity {
     public Athlete() {
     }
 
+    /**
+     * Construct an Athlete object, optionally with Position information if the Athlete
+     * is on a Team.
+     *
+     * @param name the name of the Athlete
+     * @param position the Position, if the Athlete is on a Team
+     */
     public Athlete(String name, Position position) {
         this.name = name;
         this.position = position;

@@ -77,21 +77,43 @@ public class TeamController {
         return teamRepository.findAllByDivision(division, pageable);
     }
 
+    /**
+     * Inserts a new Team.
+     *
+     * @param team the Team to insert
+     * @return the inserted Team
+     */
     @RequestMapping(value = "/teams", method = RequestMethod.POST)
     public Team createTeam(@Valid @RequestBody Team team) {
         return teamRepository.insert(team);
     }
 
+    /**
+     * Updates an existing Team.
+     *
+     * @param team the Team to update
+     * @return the updated Team
+     */
     @RequestMapping(value = "/teams", method = RequestMethod.PUT)
     public Team updateTeam(@Valid @RequestBody Team team) {
         return teamRepository.save(team);
     }
 
+    /**
+     * Deletes a Team.
+     *
+     * @param team the Team to delete
+     */
     @RequestMapping(value = "/teams", method = RequestMethod.DELETE)
     public void deleteTeam(@Valid @RequestBody Team team) {
         teamRepository.delete(team);
     }
 
+    /**
+     * Adds validation for doing CRUD operations on Athletes.
+     *
+     * @param binder the Binder to add validators to
+     */
     @InitBinder("team")
     protected void initBinder(WebDataBinder binder) {
         binder.addValidators(new TeamValidator());

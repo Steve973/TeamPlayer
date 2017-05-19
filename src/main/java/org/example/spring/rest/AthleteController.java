@@ -122,21 +122,43 @@ public class AthleteController {
         return athleteRepository.findAllByDivision(division, pageable);
     }
 
+    /**
+     * Persists a new Athlete.
+     *
+     * @param athlete the Athlete to insert
+     * @return the inserted Athlete
+     */
     @RequestMapping(value = "/athletes", method = RequestMethod.POST)
     public Athlete createAthlete(@Valid @RequestBody Athlete athlete) {
         return athleteRepository.insert(athlete);
     }
 
+    /**
+     * Updates an existing Athlete.
+     *
+     * @param athlete the Athlete to update
+     * @return the updated Athlete
+     */
     @RequestMapping(value = "/athletes", method = RequestMethod.PUT)
     public Athlete updateAthlete(@Valid @RequestBody Athlete athlete) {
         return athleteRepository.save(athlete);
     }
 
+    /**
+     * Deletes an Athlete.
+     *
+     * @param athlete the Athlete to delete
+     */
     @RequestMapping(value = "/athletes", method = RequestMethod.DELETE)
     public void deleteAthlete(@Valid @RequestBody Athlete athlete) {
         athleteRepository.delete(athlete);
     }
 
+    /**
+     * Adds validation for doing CRUD operations on Athletes.
+     *
+     * @param binder the Binder to add validators to
+     */
     @InitBinder("athlete")
     protected void initBinder(WebDataBinder binder) {
         binder.addValidators(new AthleteValidator());

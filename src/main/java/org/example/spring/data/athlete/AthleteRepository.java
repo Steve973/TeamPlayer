@@ -9,5 +9,11 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface AthleteRepository extends AbstractTeamPlayerRepository<Athlete, String>, AthleteRepositoryCustom {
+    /**
+     * Finds all Athletes by name.
+     *
+     * @param name The name to search Athletes by
+     * @return the Athlete with the given name
+     */
     Athlete findByName(String name);
 }

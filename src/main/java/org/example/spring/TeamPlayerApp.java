@@ -62,6 +62,9 @@ public class TeamPlayerApp {
                 .build();
     }
 
+    /**
+     * Setting serialization options for the REST endpoints.
+     */
     @Component
     @Primary
     public class CustomObjectMapper extends ObjectMapper {
