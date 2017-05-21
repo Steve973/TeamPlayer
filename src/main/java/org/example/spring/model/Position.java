@@ -1,6 +1,7 @@
 package org.example.spring.model;
 
 import javax.validation.Valid;
+import java.util.Objects;
 
 /**
  * This is the model object that represents a position, which is an {@link Athlete}'s role on a {@link Team}.
@@ -34,5 +35,18 @@ public class Position extends AbstractTeamPlayerEntity {
 
     public void setTeam(Team team) {
         this.team = team;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (!Position.class.isInstance(obj)) {
+            return false;
+        }
+
+        Position otherPosition = Position.class.cast(obj);
+
+        return Objects.equals(otherPosition.team, team)
+                && otherPosition.name.equals(name)
+                && Objects.equals(otherPosition.jersey, jersey);
     }
 }

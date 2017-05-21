@@ -2,6 +2,8 @@ package org.example.spring.model;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.Objects;
+
 /**
  * This is the model object that represents a team.
  */
@@ -43,5 +45,19 @@ public class Team extends AbstractTeamPlayerEntity {
 
     public void setDivision(String division) {
         this.division = division;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (!Team.class.isInstance(obj)) {
+            return false;
+        }
+
+        Team otherTeam = Team.class.cast(obj);
+
+        return (Objects.equals(otherTeam.name, name)
+                && Objects.equals(otherTeam.key, key)
+                && Objects.equals(otherTeam.conference, conference)
+                && Objects.equals(otherTeam.division, division));
     }
 }
