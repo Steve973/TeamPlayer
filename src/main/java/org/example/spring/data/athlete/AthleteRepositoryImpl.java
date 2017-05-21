@@ -8,6 +8,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.aggregation.*;
 import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
 
 import java.util.List;
 
@@ -115,28 +116,10 @@ public class AthleteRepositoryImpl implements AthleteRepositoryCustom {
      *
      * @param propertyName property name for the search
      * @param propertyValue property value for the search
-     * @return the total number of results, wrapped in a NumberOfResults object
+     * @return the total number of results where the property name is equal to the property value
      */
     private long getCount(String propertyName, String propertyValue) {
-        MatchOperation matchOperation = match(Criteria.where(propertyName).is(propertyValue));
-        GroupOperation groupOperation = group(propertyName).count().as("count");
-        Aggregation aggregation = newAggregation(matchOperation, groupOperation);
-        return mongoTemplate.aggregate(aggregation, Athlete.class, NumberOfResults.class).getMappedResults().get(0).getCount();
-    }
-
-    /**
-     * This is a wrapper for the result count when getting the total number of results
-     * that can be returned by a search, and it is used for pagination.
-     */
-    private class NumberOfResults {
-        private int count;
-
-        public int getCount() {
-            return count;
-        }
-
-        public void setCount(int count) {
-            this.count = count;
-        }
+        Query countQuery = new Query(Criteria.where(propertyName).is(propertyValue));
+        return mongoTemplate.count(countQuery, Athlete.class);
     }
 }
