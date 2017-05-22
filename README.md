@@ -17,3 +17,6 @@ From the base project directory, invoke "java -jar target/boot-rest-data-1.0.0-S
 From the base project directory, invoke "java -jar target/boot-rest-data-1.0.0-SNAPSHOT.jar"
 
 Navigate to http://localhost:8080/swagger-ui.html to use the generated user interface to interact with the REST endpoints.
+
+## Running the system tests (functional tests)
+First, run MongoDB and the application as described above.  Once it is running, go back to your terminal at the base project directory and run "mvn verify -Psystem-test" and it will execute the functional tests.
