@@ -1,54 +1,70 @@
 package org.example.spring;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+import com.fasterxml.jackson.core.JsonFactory;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.example.spring.data.athlete.AthleteRepository;
 import org.example.spring.data.team.TeamRepository;
 import org.example.spring.model.Athlete;
 import org.example.spring.model.Team;
-import org.junit.Before;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.example.spring.service.DataInitService;
+import org.example.spring.util.DataUtil;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.http.ResponseEntity;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.util.Set;
 
-import static junit.framework.TestCase.assertTrue;
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * This is a functional test for the app.
  */
-@RunWith(SpringRunner.class)
+@ExtendWith(SpringExtension.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT, classes = TeamPlayerApp.class)
 public class TeamPlayerAppIT {
+
     @Autowired
     AthleteRepository athleteRepository;
+
     @Autowired
     TeamRepository teamRepository;
+
     @Autowired
     MongoTemplate mongoTemplate;
+
     @Autowired
-    TeamPlayerDataInitializerApp initializerApp;
+    DataInitService dataInitService;
+
     @Autowired
     private TestRestTemplate restTemplate;
+
     private boolean initialized = false;
+
     private Set<Team> teams;
+
     private Set<Athlete> athletes;
 
-    @Before
+    private ObjectMapper objectMapper;
+
+    @BeforeEach
     public void setup() throws Exception {
         if (!initialized) {
-            initializerApp.run(null);
+            dataInitService.init();
             teams = DataUtil.getTeams();
             athletes = DataUtil.getAthletes();
             initialized = true;
         }
+        objectMapper = new ObjectMapper(new JsonFactory());
     }
 
     @Test
@@ -60,21 +76,19 @@ public class TeamPlayerAppIT {
     }
 
     @Test
-    public void testFindAllTeams() {
+    public void testFindAllTeams() throws JsonProcessingException {
         ResponseEntity<String> response = restTemplate.getForEntity("/teams", String.class);
-        Set<Team> results = new Gson().fromJson(response.getBody(), new TypeToken<Set<Team>>() {}.getType());
-        assertTrue("Team list must be the same size as the expected team list", results.size() == teams.size());
-        assertTrue("Team list must equal the expected team list",
-                results.stream().allMatch(result -> teams.stream().anyMatch(team -> team.equals(result))));
+        Set<Team> results = objectMapper.readValue(response.getBody(), new TypeReference<>() {});
+        assertEquals(results.size(), teams.size(), "Team list must be the same size as the expected team list");
+        assertTrue(results.stream().allMatch(result -> teams.stream().anyMatch(team -> team.equals(result))), "Team list must equal the expected team list");
     }
 
     @Test
-    public void testFindAllAthletes() {
+    public void testFindAllAthletes() throws JsonProcessingException {
         ResponseEntity<String> response = restTemplate.getForEntity("/athletes?page=0&size=" + athletes.size(), String.class);
-        Set<Athlete> results = new Gson().fromJson(response.getBody(), PagedAthleteResult.class).content;
-        assertTrue("Athlete list must be the same size as the expected athlete list", results.size() == athletes.size());
-        assertTrue("Athlete list must equal the expected athlete list",
-                results.stream().allMatch(result -> athletes.stream().anyMatch(athlete -> athlete.equals(result))));
+        Set<Athlete> results = objectMapper.readValue(response.getBody(), new TypeReference<>() {});
+        assertEquals(results.size(), athletes.size(), "Athlete list must be the same size as the expected athlete list");
+        assertTrue(results.stream().allMatch(result -> athletes.stream().anyMatch(athlete -> athlete.equals(result))), "Athlete list must equal the expected athlete list");
     }
 
     private static class PagedAthleteResult {

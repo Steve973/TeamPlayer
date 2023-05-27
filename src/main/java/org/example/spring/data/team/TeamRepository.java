@@ -1,16 +1,25 @@
 package org.example.spring.data.team;
 
-import org.example.spring.data.AbstractTeamPlayerRepository;
 import org.example.spring.model.Team;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 /**
  * This is the Repository interface for the Team objects.
  */
 @Repository
-public interface TeamRepository extends AbstractTeamPlayerRepository<Team, String> {
+public interface TeamRepository extends MongoRepository<Team, String> {
+
+    /**
+     * Finds all Athletes by name.
+     *
+     * @param name The name to search Athletes by
+     * @return the Athlete with the given name
+     */
+    Team findByName(String name);
+
     /**
      * Teams have a unique key, like "PHI" for the Philadelphia Flyers.
      * This finds the team associated with the given key.

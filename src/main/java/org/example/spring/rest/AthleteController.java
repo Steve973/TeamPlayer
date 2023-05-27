@@ -1,13 +1,10 @@
 package org.example.spring.rest;
 
-import io.swagger.annotations.ApiImplicitParam;
-import io.swagger.annotations.ApiImplicitParams;
 import org.example.spring.data.athlete.AthleteRepository;
 import org.example.spring.data.validation.AthleteValidator;
 import org.example.spring.model.Athlete;
 import org.example.spring.model.Position;
 import org.example.spring.model.Team;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.WebDataBinder;
@@ -22,9 +19,10 @@ import javax.validation.Valid;
  */
 @RestController
 public class AthleteController {
-    private AthleteRepository athleteRepository;
 
-    public AthleteController(@Autowired AthleteRepository athleteRepository) {
+    private final AthleteRepository athleteRepository;
+
+    public AthleteController(AthleteRepository athleteRepository) {
         this.athleteRepository = athleteRepository;
     }
 
@@ -33,9 +31,19 @@ public class AthleteController {
      *
      * @return a Collection of all Athletes in the data store
      */
-    @RequestMapping(value = "/athletes", method = RequestMethod.GET)
+    @GetMapping(value = "/athletes")
     public Page<Athlete> getAllAthletes(Pageable pageable) {
         return athleteRepository.findAll(pageable);
+    }
+
+    /**
+     * Get an Athlete by name.
+     *
+     * @return a Collection of all Athletes in the data store
+     */
+    @GetMapping(value = "/athletes/byName")
+    public Athlete getAthleteByName(String name) {
+        return athleteRepository.findByName(name);
     }
 
     /**
@@ -44,19 +52,9 @@ public class AthleteController {
      * @param teamName The name of the Team to retrieve all associated Athletes
      * @return all Athletes associated with the given {@link Team}.
      */
-    @ApiImplicitParams({
-            @ApiImplicitParam(name = "page", dataType = "string", paramType = "query",
-                    value = "Results page you want to retrieve (0..N)"),
-            @ApiImplicitParam(name = "size", dataType = "string", paramType = "query",
-                    value = "Number of records per page."),
-            @ApiImplicitParam(name = "sort", allowMultiple = true, dataType = "string", paramType = "query",
-                    value = "Sorting criteria in the format: property(,asc|desc). " +
-                            "Default sort order is ascending. " +
-                            "Multiple sort criteria are supported.")
-    })
-    @RequestMapping(value = "/athletes/byTeam", method = RequestMethod.GET)
-    public Page<Athlete> getAllAthletesByTeam(@RequestParam(value = "name") String teamName, Pageable pageable) {
-        return athleteRepository.findAllByTeam(teamName, pageable);
+    @GetMapping(value = "/athletes/byTeam")
+    public Page<Athlete> getAllAthletesByTeamName(@RequestParam(value = "name") String teamName, Pageable pageable) {
+        return athleteRepository.findAllByPositionTeamName(teamName, pageable);
     }
 
     /**
@@ -65,19 +63,10 @@ public class AthleteController {
      * @param positionName The name of the {@link Position} to retrieve all Athletes that have that position
      * @return all Athletes with the given {@link Position}
      */
-    @ApiImplicitParams({
-            @ApiImplicitParam(name = "page", dataType = "string", paramType = "query",
-                    value = "Results page you want to retrieve (0..N)"),
-            @ApiImplicitParam(name = "size", dataType = "string", paramType = "query",
-                    value = "Number of records per page."),
-            @ApiImplicitParam(name = "sort", allowMultiple = true, dataType = "string", paramType = "query",
-                    value = "Sorting criteria in the format: property(,asc|desc). " +
-                            "Default sort order is ascending. " +
-                            "Multiple sort criteria are supported.")
-    })
-    @RequestMapping(value = "/athletes/byPosition", method = RequestMethod.GET)
+
+    @GetMapping(value = "/athletes/byPosition")
     public Page<Athlete> getAllAthletesByPosition(@RequestParam(value = "name") String positionName, Pageable pageable) {
-        return athleteRepository.findAllByPosition(positionName, pageable);
+        return athleteRepository.findAllByPositionName(positionName, pageable);
     }
 
     /**
@@ -86,19 +75,10 @@ public class AthleteController {
      * @param conference the conference name to find all associated Athletes
      * @return all Athletes that play in the given conference
      */
-    @ApiImplicitParams({
-            @ApiImplicitParam(name = "page", dataType = "string", paramType = "query",
-                    value = "Results page you want to retrieve (0..N)"),
-            @ApiImplicitParam(name = "size", dataType = "string", paramType = "query",
-                    value = "Number of records per page."),
-            @ApiImplicitParam(name = "sort", allowMultiple = true, dataType = "string", paramType = "query",
-                    value = "Sorting criteria in the format: property(,asc|desc). " +
-                            "Default sort order is ascending. " +
-                            "Multiple sort criteria are supported.")
-    })
-    @RequestMapping(value = "/athletes/byConference", method = RequestMethod.GET)
+
+    @GetMapping(value = "/athletes/byConference")
     public Page<Athlete> getAllByConference(@RequestParam(value = "conference") String conference, Pageable pageable) {
-        return athleteRepository.findAllByConference(conference, pageable);
+        return athleteRepository.findAllByPositionTeamConference(conference, pageable);
     }
 
     /**
@@ -107,19 +87,9 @@ public class AthleteController {
      * @param division the division name to find all associated Athletes
      * @return all Athletes that play in the given division
      */
-    @ApiImplicitParams({
-            @ApiImplicitParam(name = "page", dataType = "string", paramType = "query",
-                    value = "Results page you want to retrieve (0..N)"),
-            @ApiImplicitParam(name = "size", dataType = "string", paramType = "query",
-                    value = "Number of records per page."),
-            @ApiImplicitParam(name = "sort", allowMultiple = true, dataType = "string", paramType = "query",
-                    value = "Sorting criteria in the format: property(,asc|desc). " +
-                            "Default sort order is ascending. " +
-                            "Multiple sort criteria are supported.")
-    })
-    @RequestMapping(value = "/athletes/byDivision", method = RequestMethod.GET)
+    @GetMapping(value = "/athletes/byDivision")
     public Page<Athlete> getAllByDivsion(@RequestParam(value = "division") String division, Pageable pageable) {
-        return athleteRepository.findAllByDivision(division, pageable);
+        return athleteRepository.findAllByPositionTeamDivision(division, pageable);
     }
 
     /**
@@ -128,7 +98,7 @@ public class AthleteController {
      * @param athlete the Athlete to insert
      * @return the inserted Athlete
      */
-    @RequestMapping(value = "/athletes", method = RequestMethod.POST)
+    @PostMapping(value = "/athletes")
     public Athlete createAthlete(@Valid @RequestBody Athlete athlete) {
         return athleteRepository.insert(athlete);
     }
@@ -139,7 +109,7 @@ public class AthleteController {
      * @param athlete the Athlete to update
      * @return the updated Athlete
      */
-    @RequestMapping(value = "/athletes", method = RequestMethod.PUT)
+    @PutMapping(value = "/athletes")
     public Athlete updateAthlete(@Valid @RequestBody Athlete athlete) {
         return athleteRepository.save(athlete);
     }
@@ -149,7 +119,7 @@ public class AthleteController {
      *
      * @param athlete the Athlete to delete
      */
-    @RequestMapping(value = "/athletes", method = RequestMethod.DELETE)
+    @DeleteMapping(value = "/athletes")
     public void deleteAthlete(@Valid @RequestBody Athlete athlete) {
         athleteRepository.delete(athlete);
     }

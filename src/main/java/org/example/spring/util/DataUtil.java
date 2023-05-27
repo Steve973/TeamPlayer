@@ -1,7 +1,9 @@
-package org.example.spring;
+package org.example.spring.util;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+import com.fasterxml.jackson.core.JsonFactory;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.Data;
 import org.example.spring.model.Athlete;
 import org.example.spring.model.Position;
 import org.example.spring.model.Team;
@@ -9,7 +11,6 @@ import org.springframework.core.io.ClassPathResource;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -18,19 +19,17 @@ import java.util.stream.Collectors;
  * Utility class to get data from the json resource files.
  */
 public class DataUtil {
-    private static String playerFile = "/players.json";
-    private static String teamFile = "/teams.json";
+
+    private static final ObjectMapper objectMapper = new ObjectMapper(new JsonFactory());
 
     public static Set<Player> getPlayers() throws IOException {
-        InputStream playerFileInputStream = new ClassPathResource(playerFile).getInputStream();
-        Gson gson = new Gson();
-        return gson.fromJson(new InputStreamReader(playerFileInputStream), new TypeToken<Set<Player>>() {}.getType());
+        InputStream playerFile = new ClassPathResource("players.json").getInputStream();
+        return objectMapper.readValue(playerFile, new TypeReference<>() {});
     }
 
     public static Set<Team> getTeams() throws IOException {
-        InputStream teamFileInputStream = new ClassPathResource(teamFile).getInputStream();
-        Gson gson = new Gson();
-        return gson.fromJson(new InputStreamReader(teamFileInputStream), new TypeToken<Set<Team>>() {}.getType());
+        InputStream teamFile = new ClassPathResource("teams.json").getInputStream();
+        return objectMapper.readValue(teamFile, new TypeReference<>() {});
     }
 
     public static Set<Athlete> getAthletes() throws IOException {
@@ -45,7 +44,7 @@ public class DataUtil {
      * The {@link Position} information must be parsed from the teams.xml file, so this parses those objects
      * to create {@link Athlete} and {@link Team} objects which are then used to create the {@link Position} instance.
      *
-     * @param player the {@link TeamPlayerDataInitializerApp.Player} that may have a position to parse
+     * @param player the {@link Player} that may have a position to parse
      * @param teams  a collection of {@link Team}s
      * @return the {@link Position}s that are the association of an {@link Athlete} on a {@link Team}
      */
@@ -61,6 +60,7 @@ public class DataUtil {
                 }).orElse(null);
     }
 
+    @Data
     private static class Player {
         String team;
         String position;

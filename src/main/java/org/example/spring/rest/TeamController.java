@@ -3,7 +3,6 @@ package org.example.spring.rest;
 import org.example.spring.data.team.TeamRepository;
 import org.example.spring.data.validation.TeamValidator;
 import org.example.spring.model.Team;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.WebDataBinder;
@@ -17,9 +16,9 @@ import java.util.Collection;
  */
 @RestController
 public class TeamController {
-    private TeamRepository teamRepository;
+    private final TeamRepository teamRepository;
 
-    public TeamController(@Autowired TeamRepository teamRepository) {
+    public TeamController(TeamRepository teamRepository) {
         this.teamRepository = teamRepository;
     }
 
@@ -28,7 +27,7 @@ public class TeamController {
      *
      * @return all Teams in the data store
      */
-    @RequestMapping(value = "/teams", method = RequestMethod.GET)
+    @GetMapping(value = "/teams")
     public Collection<Team> getAllTeams() {
         return teamRepository.findAll();
     }
@@ -39,7 +38,7 @@ public class TeamController {
      * @param name The name of the Team to find
      * @return the Team with the given name
      */
-    @RequestMapping(value = "/teams/byName", method = RequestMethod.GET)
+    @GetMapping(value = "/teams/byName")
     public Team getByName(@RequestParam(value = "name") String name) {
         return teamRepository.findByName(name);
     }
@@ -50,29 +49,29 @@ public class TeamController {
      * @param key the key of the Team to find
      * @return the Team with the given key
      */
-    @RequestMapping(value = "/teams/byKey", method = RequestMethod.GET)
+    @GetMapping(value = "/teams/byKey")
     public Team getByKey(@RequestParam(value = "key") String key) {
         return teamRepository.findByKey(key);
     }
 
     /**
-     * Get all of the Teams that play in the given conference.
+     * Get all Teams that play in the given conference.
      *
      * @param conference the conference to find all participating Teams
      * @return all Teams that play in the given conference
      */
-    @RequestMapping(value = "/teams/byConference", method = RequestMethod.GET)
+    @GetMapping(value = "/teams/byConference")
     public Page<Team> getAllByConference(@RequestParam(value = "conference") String conference, Pageable pageable) {
         return teamRepository.findAllByConference(conference, pageable);
     }
 
     /**
-     * Get all of the Teams that play in the given division.
+     * Get all Teams that play in the given division.
      *
      * @param division the division to find all participating Teams
      * @return all Teams that play in the given division
      */
-    @RequestMapping(value = "/teams/byDivision", method = RequestMethod.GET)
+    @GetMapping(value = "/teams/byDivision")
     public Page<Team> getAllByDivsion(@RequestParam(value = "division") String division, Pageable pageable) {
         return teamRepository.findAllByDivision(division, pageable);
     }
@@ -83,7 +82,7 @@ public class TeamController {
      * @param team the Team to insert
      * @return the inserted Team
      */
-    @RequestMapping(value = "/teams", method = RequestMethod.POST)
+    @PostMapping(value = "/teams")
     public Team createTeam(@Valid @RequestBody Team team) {
         return teamRepository.insert(team);
     }
@@ -94,7 +93,7 @@ public class TeamController {
      * @param team the Team to update
      * @return the updated Team
      */
-    @RequestMapping(value = "/teams", method = RequestMethod.PUT)
+    @PutMapping(value = "/teams")
     public Team updateTeam(@Valid @RequestBody Team team) {
         return teamRepository.save(team);
     }
@@ -104,7 +103,7 @@ public class TeamController {
      *
      * @param team the Team to delete
      */
-    @RequestMapping(value = "/teams", method = RequestMethod.DELETE)
+    @DeleteMapping(value = "/teams")
     public void deleteTeam(@Valid @RequestBody Team team) {
         teamRepository.delete(team);
     }

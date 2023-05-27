@@ -10,13 +10,16 @@ From the base project directory, invoke "mvn clean package"
 ## Prerequisite for running the application
 Ensure that MongoDB is running with defaults on the local machine
 
-## Initialize MongoDB with data for the app
-From the base project directory, invoke "java -jar target/boot-rest-data-1.0.0-SNAPSHOT.jar TeamPlayerDataInitializerApp"
-
 ## Run the application
 From the base project directory, invoke "java -jar target/boot-rest-data-1.0.0-SNAPSHOT.jar"
 
-Navigate to http://localhost:8080/swagger-ui.html to use the generated user interface to interact with the REST endpoints.
+Navigate to http://localhost:8080/swagger-ui.html to use the generated user interface to interact with the REST
+endpoints.
+
+## Initialize MongoDB with data for the app
+If you need to (re)initialize the MongoDB with data, navigate to the swagger page mentioned in the previous step, and
+use the data-init-controller to initialize the data.
 
 ## Running the system tests (functional tests)
-First, run MongoDB and the application as described above.  Once it is running, go back to your terminal at the base project directory and run "mvn verify -Psystem-test" and it will execute the functional tests.
+First, run MongoDB and the application as described above.  Once it is running, go back to your terminal at the base
+project directory and run "mvn verify -Psystem-test" and it will execute the functional tests.
