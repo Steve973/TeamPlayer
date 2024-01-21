@@ -1,5 +1,9 @@
 # TeamPlayer
 This is an example Spring Boot application that utilizes Spring Rest and Spring Data with MongoDB.
+I recently modernized this app to Spring Boot 3, with SpringDoc.  It uses Webflux with reactive repositories
+and functional reactive REST controllers.  To test the app, you do not even need to install MongoDB.
+Just get a working installation of Docker or Podman up and running, and it will stand up a MongoDB
+Testcontainer for you.
 
 I obtained all team and player data from https://fantasydata.com through their REST API and reduced the data
 to fit into the scope of this application.
