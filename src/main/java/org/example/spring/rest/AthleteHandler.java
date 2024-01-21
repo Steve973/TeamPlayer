@@ -1,7 +1,7 @@
 package org.example.spring.rest;
 
-import org.example.spring.repository.AthleteRepository;
 import org.example.spring.model.Athlete;
+import org.example.spring.repository.AthleteRepository;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.server.ServerRequest;

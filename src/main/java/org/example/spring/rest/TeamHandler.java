@@ -1,7 +1,7 @@
 package org.example.spring.rest;
 
-import org.example.spring.repository.TeamRepository;
 import org.example.spring.model.Team;
+import org.example.spring.repository.TeamRepository;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.server.ServerRequest;
@@ -54,14 +54,14 @@ public class TeamHandler {
     }
 
     public Mono<ServerResponse> saveTeam(ServerRequest request) {
-        Mono<Team> teamMono = request.bodyToMono(Team.class);
-        return teamMono.flatMap(teamRepository::save)
+        return request.bodyToMono(Team.class)
+                .flatMap(teamRepository::save)
                 .flatMap(saved -> createResponseMono.apply(Mono.just(saved)));
     }
 
     public Mono<ServerResponse> deleteTeam(ServerRequest request) {
-        Mono<Team> teamMono = request.bodyToMono(Team.class);
-        return teamMono.doOnNext(teamRepository::delete)
+        return request.bodyToMono(Team.class)
+                .flatMap((teamRepository::delete))
                 .then(ServerResponse.noContent().build());
     }
 }
