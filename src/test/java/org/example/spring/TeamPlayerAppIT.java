@@ -11,11 +11,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Import;
 import org.springframework.test.web.reactive.server.WebTestClient;
-import org.springframework.web.reactive.function.server.EntityResponse;
 import org.testcontainers.containers.MongoDBContainer;
 import org.testcontainers.junit.jupiter.Testcontainers;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -44,11 +42,12 @@ public class TeamPlayerAppIT {
     @BeforeEach
     public void setup() {
         assertTrue(mongo.isRunning());
-        String result = dataInitHandler.init(null)
-                .map(r -> (EntityResponse<String>) r)
-                .map(EntityResponse::entity)
-                .block();
-        assertEquals("Saved 30 teams and 811 athletes", result);
+        webTestClient.put()
+                .uri("/init")
+                .exchange()
+                .expectStatus().isOk()
+                .expectBody(String.class)
+                .isEqualTo("Saved 30 teams and 811 athletes");
     }
 
     @Test
