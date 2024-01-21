@@ -1,16 +1,16 @@
-package org.example.spring.data.team;
+package org.example.spring.repository;
 
 import org.example.spring.model.Team;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import org.springframework.stereotype.Repository;
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
 /**
  * This is the Repository interface for the Team objects.
  */
 @Repository
-public interface TeamRepository extends MongoRepository<Team, String> {
+public interface TeamRepository extends ReactiveMongoRepository<Team, String> {
 
     /**
      * Finds all Athletes by name.
@@ -18,7 +18,7 @@ public interface TeamRepository extends MongoRepository<Team, String> {
      * @param name The name to search Athletes by
      * @return the Athlete with the given name
      */
-    Team findByName(String name);
+    Mono<Team> findByName(String name);
 
     /**
      * Teams have a unique key, like "PHI" for the Philadelphia Flyers.
@@ -27,23 +27,21 @@ public interface TeamRepository extends MongoRepository<Team, String> {
      * @param key a unique three letter key for a Team
      * @return the Team associated with the given key
      */
-    Team findByKey(String key);
+    Mono<Team> findByKey(String key);
 
     /**
      * Find all Teams by the given Conference.
      *
      * @param conference the name of the Conference to search for teams by
-     * @param pageable  Gets paging and search information from the parameters
      * @return all Teams in the specified Conference
      */
-    Page<Team> findAllByConference(String conference, Pageable pageable);
+    Flux<Team> findAllByConference(String conference);
 
     /**
      * Find all teams by the given Division.
      *
      * @param division the name of the Division to search for teams by
-     * @param pageable Gets paging and search information from the parameters
      * @return all Teams in the specified Division
      */
-    Page<Team> findAllByDivision(String division, Pageable pageable);
+    Flux<Team> findAllByDivision(String division);
 }

@@ -1,0 +1,19 @@
+app:
+  name: "team-player"
+  port: 8080
+spring:
+  application:
+    name: "${app.name}"
+  webflux:
+    base-path: "/${app.name}"
+server:
+  port: ${app.port}
+management:
+  endpoints:
+    enabled-by-default: false
+    web:
+      exposure:
+        include: "health"
+  endpoint:
+    health:
+      enabled: true

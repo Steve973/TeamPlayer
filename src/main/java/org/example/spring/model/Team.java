@@ -1,11 +1,10 @@
 package org.example.spring.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import org.springframework.data.mongodb.core.mapping.Document;
-
-import java.util.Objects;
 
 /**
  * This is the model object that represents a team.
@@ -14,7 +13,8 @@ import java.util.Objects;
 @Data
 @Document
 @NoArgsConstructor
-public class Team extends AbstractTeamPlayerEntity {
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Team extends PersistableEntity {
 
     private String key;
 

@@ -1,5 +1,6 @@
 package org.example.spring.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
@@ -12,7 +13,8 @@ import javax.validation.Valid;
 @EqualsAndHashCode(callSuper = true)
 @NoArgsConstructor
 @Data
-public class Position extends AbstractTeamPlayerEntity {
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Position extends PersistableEntity {
 
     @Valid
     private Team team;

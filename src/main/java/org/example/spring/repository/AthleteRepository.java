@@ -1,16 +1,16 @@
-package org.example.spring.data.athlete;
+package org.example.spring.repository;
 
 import org.example.spring.model.Athlete;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import org.springframework.stereotype.Repository;
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
 /**
  * This is the Repository interface for the Athlete objects.
  */
 @Repository
-public interface AthleteRepository extends MongoRepository<Athlete, String> {
+public interface AthleteRepository extends ReactiveMongoRepository<Athlete, String> {
 
     /**
      * Finds all Athletes by name.
@@ -18,41 +18,37 @@ public interface AthleteRepository extends MongoRepository<Athlete, String> {
      * @param name The name to search Athletes by
      * @return the Athlete with the given name
      */
-    Athlete findByName(String name);
+    Mono<Athlete> findByName(String name);
 
     /**
      * Finds all Athletes by Team name.
      *
      * @param team Team name to use to search for Athletes
-     * @param pageable Gets paging and search information from the parameters
      * @return all Athletes associated with the given Team
      */
-    Page<Athlete> findAllByPositionTeamName(String team, Pageable pageable);
+    Flux<Athlete> findAllByPositionTeamName(String team);
 
     /**
      * Find all Athletes that have the given Position.
      *
      * @param position the Position name to search for Athletes by
-     * @param pageable Gets paging and search information from the parameters
      * @return all Athletes associated with the given Position
      */
-    Page<Athlete> findAllByPositionName(String position, Pageable pageable);
+    Flux<Athlete> findAllByPositionName(String position);
 
     /**
      * Finds all Athletes in the given Conference.
      *
      * @param conference the name of the Conference to search for Athletes by
-     * @param pageable Gets paging and search information from the parameters
      * @return all Athletes associated with the given Conference
      */
-    Page<Athlete> findAllByPositionTeamConference(String conference, Pageable pageable);
+    Flux<Athlete> findAllByPositionTeamConference(String conference);
 
     /**
      * Finds all Athletes in the given Division.
      *
      * @param division the name of the Division to search for Athletes by
-     * @param pageable Gets paging and search information from the parameters
      * @return all Athletes associated with the given Division
      */
-    Page<Athlete> findAllByPositionTeamDivision(String division, Pageable pageable);
+    Flux<Athlete> findAllByPositionTeamDivision(String division);
 }

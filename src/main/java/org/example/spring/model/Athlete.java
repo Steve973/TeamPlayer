@@ -1,5 +1,6 @@
 package org.example.spring.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
@@ -12,7 +13,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @NoArgsConstructor
 @Document
-public class Athlete extends AbstractTeamPlayerEntity {
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Athlete extends PersistableEntity {
 
     private Position position;
 

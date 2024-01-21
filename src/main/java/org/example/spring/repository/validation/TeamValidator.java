@@ -1,4 +1,4 @@
-package org.example.spring.data.validation;
+package org.example.spring.repository.validation;
 
 import org.example.spring.model.Team;
 import org.springframework.validation.Errors;
